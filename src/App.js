@@ -1,8 +1,9 @@
 import './App.css';
+import { Routes } from './routes';
 
 function App() {
   return (
-   <h2>OLÁ</h2>
+    <Routes />
   );
 }
 
