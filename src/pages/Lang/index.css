@@ -4,7 +4,7 @@ body{
 
 #title{
     text-align: center;
-    font-family: Nunito Sans;
+    font-family: 'Lora', serif;
     font-weight: bold;
     margin-top:210px;
 }
@@ -25,15 +25,14 @@ body{
     display: inline-block;
     text-decoration: none;
     margin-right: 150px;
-
-
 }
 #home > span{
-    font-family: Nunito Sans;
+    font-family: 'Lora', serif;
     font-style: normal;
     font-weight: bold;
     font-size: 20px;
-    line-height: 41px;
+    line-height: 60px;
+ 
 
 /* identical to box height */
 
@@ -49,13 +48,19 @@ body{
 }
 
 #en > span{
-    font-family: Nunito Sans;
+    font-family: 'Lora', serif;
     font-style: normal;
     font-weight: bold;
     font-size: 20px;
-    line-height: 41px;
+    line-height: 60px;
 
 /* identical to box height */
 
     color: #FFFFFF;
 }
+
+
+
+
+
+
