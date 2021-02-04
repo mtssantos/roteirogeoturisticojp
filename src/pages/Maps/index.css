@@ -1,0 +1,6 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.css");
+
+.leaflet-container{
+    width: 100%;
+    height: 650px;
+}

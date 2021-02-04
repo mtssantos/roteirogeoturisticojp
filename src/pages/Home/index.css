@@ -73,9 +73,6 @@
 .logo{
     width: 60%;
 }
-.logo-math{
-    display: none;
-}
 
 .blocos{
     display: flex;
@@ -100,9 +97,41 @@ h2{
 }
 .btn{
   width: 150px;
-  height: 50px;
+  height: 45px;
+  font-size: 15px;
+  border-radius: 6px;
 }
-
+.btn-outline-primary{
+  width: 100px;
+}
+.buttons-submit{
+  display: flex;
+  justify-content: space-between;
+}
+.form-control{
+  display: block;
+  width: 300%;
+  height: 35px;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: .25rem;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.close > span {
+  font-size: 12px;
+}
+.material-icons{
+  color:#000;
+  font-size: 40px;
+}
+#ModalForm{
+  text-align: left;
+}
 @media screen and (max-width: 767px) {
     .carousel-item{
         height: 10vh;
@@ -138,11 +167,10 @@ h2{
         background-color: rgba(0, 0, 0, 0.5);
         border-radius: 5px;
     }
-    .logo-math{
-        width: 25%;
-        display: block;
-        position: absolute;
-        top:0px;
-        right:10px;
+    .bottom-footer{
+      display: flex;
+      justify-content: space-around;
+      text-align: center;
+      padding-bottom: 15px;
     }
 }

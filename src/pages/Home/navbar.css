@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700,800');
 @import url('https://fonts.googleapis.com/css?family=Lobster');
+
 html {
   font-size: 62.5%;
 }
@@ -16,6 +17,7 @@ p {
   margin-bottom: 0.5em;
   font-size: 1.6rem;
   line-height: 1.6;
+  text-align: justify;
 }
 .button {
   display: inline-block;
@@ -25,7 +27,7 @@ p {
 }
 .button-primary {
   position: relative;
-  background-color: #c0ca33;
+  background-color: blue;
   color: #fff;
   font-size: 1.8rem;
   font-weight: 700;
@@ -33,7 +35,7 @@ p {
   z-index: 1;
 }
 .button-primary:hover {
-  color: #c0ca33;
+  color: blue;
   text-decoration: none;
 }
 .button-primary::after {
@@ -83,6 +85,7 @@ p {
   height: 100%;
   color: #fff;
   background: url('../../assets/image_1.jpg');
+
   text-align: center;
   z-index: 1;
 }
@@ -206,6 +209,12 @@ p {
 .content {
   padding: 120px 0;
 }
+
+.btn-outline-success{
+  width: 100px;
+
+}
+
 @media screen and (max-width: 768px) {
   .navbar-brand {
     margin-left: 20px;

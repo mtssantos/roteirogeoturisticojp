@@ -1,5 +1,7 @@
 import { Link, Redirect } from "react-router-dom";
 import logo from '../../assets/Vector.svg';
+import Form from "../../components/Form";
+import ModalCriterios from "../../components/Modal";
 import "./index.css";
 import "./navbar.css"
 
@@ -10,7 +12,6 @@ function Home() {
     if(lang === null){
         return <Redirect to="/lang" />
     }
-
     
    return(
         <div className="Home">
@@ -18,17 +19,25 @@ function Home() {
                 <nav className="navbar navbar-expand-md navbar-dark">
                     <div className="container">
                         <Link to="/" className="navbar-brand"><img src={logo} alt="Logo" className="logo"/></Link>
-                        
+    
                         <button type="button" className="navbar-toggler collapsed" data-toggle="collapse" data-target="#main-nav">
-                            <span className="menu-icon-bar"></span>
-                            <span className="menu-icon-bar"></span>
-                            <span className="menu-icon-bar"></span>
+                            <span class="material-icons">
+                                menu
+                            </span>
                         </button>
                         
                         <div id="main-nav" className="collapse navbar-collapse">
                             <ul className="navbar-nav ml-auto">
                                 <li><Link href="#" className="nav-item nav-link active">Geoturismo</Link></li>
-                                <li><Link href="#" className="nav-item nav-link">Explorar</Link></li>
+                                <li className="dropdown">
+                                    <Link href="#" className="nav-item nav-link" data-toggle="dropdown">Explorar</Link>
+                                    <div className="dropdown-menu">
+                                        <button href="#" className="dropdown-item" data-toggle="modal" data-target="#exampleModal">Critérios</button>
+                                        <Link href="#" className="dropdown-item">Locais de Interesse</Link>
+                                        <Link href="#" className="dropdown-item">Fichas</Link>                                        
+                                        <Link href="#" className="dropdown-item">Exploração Temática</Link>                                        
+                                    </div>
+                                </li>
                                 <li className="dropdown">
                                     <Link href="#" class="nav-item nav-link" data-toggle="dropdown">Nosso Território</Link>
                                     <div class="dropdown-menu">
@@ -51,6 +60,7 @@ function Home() {
                             </ul>
                         </div>
                     </div>
+                    <ModalCriterios />
                 </nav>
                 
                 <div className="banner">
@@ -65,7 +75,7 @@ function Home() {
                     <div className="bloco-1">
                         <h2>Locais de Interesse</h2>
                         <p>Capital do Estado da Paraíba, João Pessoa possui um dos centros históricos mais antigos do país, repleto de igrejas, monumentos, praças históricas, obeliscos e fontes.</p>
-                        <Link to="/en">
+                        <Link to="/maps">
                             <strong>Visitar</strong>
                         </Link>
                     </div>
@@ -87,12 +97,13 @@ function Home() {
             </div>
                 <div className="container">
                 <div className="bottom-footer">
-                    <button type="button" class="btn btn-info btn-lg">Envie um e-mail</button>
-                    <span className="visit">000 <span>Visitas ao site</span></span>
+                    <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#ModalForm">Envie um e-mail</button>
+                    <Form />
+                    <span className="visit"> <span>Visitas ao site</span></span>
+                </div>
                 </div>
             </div>
-        </div>
-   
+  
 
     )
     
