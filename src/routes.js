@@ -5,8 +5,6 @@ import Lang from './pages/Lang';
 import Maps from './pages/Maps';
 
 
-
-
 export function Routes(){
     return(
         <BrowserRouter>

@@ -1,9 +1,9 @@
-import { Map, TileLayer, Marker, Popup, CircleMarker } from 'react-leaflet';
+import { Map, TileLayer, Marker, Popup } from 'react-leaflet';
 import "./index.css";
+import points from './arq';
 
 function Maps() {
 
-    const redOptions = { color: 'blue' }
     return(
         <div className="maps">
             <Map center={[-7.11454, -34.88233]} zoom={15}>
@@ -11,13 +11,16 @@ function Maps() {
                     attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
                     url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
                 />
-                <CircleMarker center={[-7.11454, -34.88233]} pathOptions={redOptions} radius={150}>
-                    <Marker position={[-7.11462, -34.88233]}>
+                {points.map(point => (
+                    <Marker position={[point.latitude, point.longitude]}>
                         <Popup>
-                        A pretty CSS3 popup. <br /> Easily customizable.
+                            <div className="point">
+                                <img src={point.imagem} alt="Imagem do Projeto" />
+                            </div>
+                            <p>{point.nome}</p>
                         </Popup>
                     </Marker>
-                </CircleMarker>
+                ))}
             </Map>
         </div>
     )

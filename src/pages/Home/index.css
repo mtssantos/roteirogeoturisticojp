@@ -132,6 +132,9 @@ h2{
 #ModalForm{
   text-align: left;
 }
+span.nav-item{
+  cursor: pointer;
+}
 @media screen and (max-width: 767px) {
     .carousel-item{
         height: 10vh;

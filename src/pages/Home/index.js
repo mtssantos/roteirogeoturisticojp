@@ -21,42 +21,42 @@ function Home() {
                         <Link to="/" className="navbar-brand"><img src={logo} alt="Logo" className="logo"/></Link>
     
                         <button type="button" className="navbar-toggler collapsed" data-toggle="collapse" data-target="#main-nav">
-                            <span class="material-icons">
+                            <span className="material-icons">
                                 menu
                             </span>
                         </button>
                         
                         <div id="main-nav" className="collapse navbar-collapse">
                             <ul className="navbar-nav ml-auto">
-                                <li><Link href="#" className="nav-item nav-link active">Geoturismo</Link></li>
+                                <li><Link to="/" className="nav-item nav-link active">Geoturismo</Link></li>
                                 <li className="dropdown">
-                                    <Link href="#" className="nav-item nav-link" data-toggle="dropdown">Explorar</Link>
+                                    <span className="nav-item nav-link" data-toggle="dropdown">Explorar</span>
                                     <div className="dropdown-menu">
-                                        <button href="#" className="dropdown-item" data-toggle="modal" data-target="#exampleModal">Critérios</button>
-                                        <Link href="#" className="dropdown-item">Locais de Interesse</Link>
-                                        <Link href="#" className="dropdown-item">Fichas</Link>                                        
-                                        <Link href="#" className="dropdown-item">Exploração Temática</Link>                                        
+                                        <button className="dropdown-item" data-toggle="modal" data-target="#exampleModal">Critérios</button>
+                                        <Link to="/" className="dropdown-item">Locais de Interesse</Link>
+                                        <Link to="/" className="dropdown-item">Fichas</Link>                                        
+                                        <Link to="/" className="dropdown-item">Exploração Temática</Link>                                        
                                     </div>
                                 </li>
                                 <li className="dropdown">
-                                    <Link href="#" class="nav-item nav-link" data-toggle="dropdown">Nosso Território</Link>
-                                    <div class="dropdown-menu">
-                                        <Link href="#" className="dropdown-item">Dropdown Item 1</Link>
-                                        <Link href="#" className="dropdown-item">Dropdown Item 2</Link>
-                                        <Link href="#" className="dropdown-item">Dropdown Item 3</Link>
+                                    <span className="nav-item nav-link" data-toggle="dropdown">Nosso Território</span>
+                                    <div className="dropdown-menu">
+                                        <Link to="/" className="dropdown-item">Dropdown Item 1</Link>
+                                        <Link to="/" className="dropdown-item">Dropdown Item 2</Link>
+                                        <Link to="/" className="dropdown-item">Dropdown Item 3</Link>
                                     </div>
                                 </li>
-                                <li class="dropdown">
-                                    <Link className="nav-item nav-link" data-toggle="dropdown">Publicações</Link>
-                                    <div class="dropdown-menu">
-                                        <Link href="#" className="dropdown-item">Dropdown Item 1</Link>
-                                        <Link href="#" className="dropdown-item">Dropdown Item 2</Link>
-                                        <Link href="#" className="dropdown-item">Dropdown Item 3</Link>
-                                        <Link href="#" className="dropdown-item">Dropdown Item 4</Link>
-                                        <Link href="#" className="dropdown-item">Dropdown Item 5</Link>
+                                <li className="dropdown">
+                                    <span className="nav-item nav-link" data-toggle="dropdown">Publicações</span>
+                                    <div className="dropdown-menu">
+                                        <Link to="/" className="dropdown-item">Dropdown Item 1</Link>
+                                        <Link to="/" className="dropdown-item">Dropdown Item 2</Link>
+                                        <Link to="/" className="dropdown-item">Dropdown Item 3</Link>
+                                        <Link to="/" className="dropdown-item">Dropdown Item 4</Link>
+                                        <Link to="/" className="dropdown-item">Dropdown Item 5</Link>
                                     </div>
                                 </li>
-                                <li><Link href="#" className="nav-item nav-link">Sobre o projeto</Link></li>
+                                <li><Link to="/" className="nav-item nav-link">Sobre o projeto</Link></li>
                             </ul>
                         </div>
                     </div>
@@ -97,7 +97,7 @@ function Home() {
             </div>
                 <div className="container">
                 <div className="bottom-footer">
-                    <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#ModalForm">Envie um e-mail</button>
+                    <button type="button" className="btn btn-info btn-lg" data-toggle="modal" data-target="#ModalForm">Envie um e-mail</button>
                     <Form />
                     <span className="visit"> <span>Visitas ao site</span></span>
                 </div>

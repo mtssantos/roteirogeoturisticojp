@@ -1,6 +1,6 @@
 function Form(){
     return(
-        <div className="modal" id="ModalForm" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div className="modal" id="ModalForm"  role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div className="modal-dialog" role="document">
             <div className="modal-content">
             <div className="modal-header">
