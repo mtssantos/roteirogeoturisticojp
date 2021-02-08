@@ -28,7 +28,7 @@ function Home() {
                         
                         <div id="main-nav" className="collapse navbar-collapse">
                             <ul className="navbar-nav ml-auto">
-                                <li><Link to="/" className="nav-item nav-link active">Geoturismo</Link></li>
+                                <li><Link to="/geoturism" className="nav-item nav-link active">Geoturismo</Link></li>
                                 <li className="dropdown">
                                     <span className="nav-item nav-link" data-toggle="dropdown">Explorar</span>
                                     <div className="dropdown-menu">
