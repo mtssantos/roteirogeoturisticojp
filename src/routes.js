@@ -3,7 +3,8 @@ import EN from './pages/EN';
 import Home from './pages/Home';
 import Lang from './pages/Lang';
 import Maps from './pages/Maps';
-import Geoturism from './pages/Home/geoturism'
+import Geoturism from './pages/Home/geoturism';
+import Pontos from './pages/Home/Pontos';
 
 
 export function Routes(){
@@ -14,6 +15,7 @@ export function Routes(){
             <Route path="/en" component={EN} />
             <Route path="/maps" component={Maps} />
             <Route path="/geoturism" component={Geoturism} />
+            <Route path="/locais" component={Pontos} />
         </BrowserRouter>
     )
 }

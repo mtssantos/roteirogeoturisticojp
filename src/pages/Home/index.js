@@ -33,7 +33,7 @@ function Home() {
                                     <span className="nav-item nav-link" data-toggle="dropdown">Explorar</span>
                                     <div className="dropdown-menu">
                                         <button className="dropdown-item" data-toggle="modal" data-target="#exampleModal">Critérios</button>
-                                        <Link to="/" className="dropdown-item">Locais de Interesse</Link>
+                                        <Link to="/locais" className="dropdown-item">Locais de Interesse</Link>
                                         <Link to="/" className="dropdown-item">Fichas</Link>                                        
                                         <Link to="/" className="dropdown-item">Exploração Temática</Link>                                        
                                     </div>
