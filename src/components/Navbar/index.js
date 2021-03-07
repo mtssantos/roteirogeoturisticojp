@@ -1,5 +1,6 @@
 import logo from '../../assets/Vector.svg';
 import { Link } from "react-router-dom";
+import ModalCriterios from "../Modal";
 import "./index.css";
 
 function NavBar(){
@@ -20,7 +21,7 @@ function NavBar(){
                                     <span className="nav-link" data-toggle="dropdown">Explorar</span>
                                     <div className="dropdown-menu">
                                         <button className="dropdown-item" data-toggle="modal" data-target="#exampleModal">Critérios</button>
-                                        <Link to="/" className="dropdown-item">Locais de Interesse</Link>
+                                        <Link to="/locais" className="dropdown-item">Locais de Interesse</Link>
                                         <Link to="/" className="dropdown-item">Fichas</Link>                                        
                                         <Link to="/" className="dropdown-item">Exploração Temática</Link>                                        
                                     </div>
@@ -46,7 +47,8 @@ function NavBar(){
                                 <li><Link to="/" className="nav-link">Sobre o projeto</Link></li>
                             </ul>
                         </div>
-                    </div>           
+                    </div>
+                    <ModalCriterios />           
             </nav>
             <br />
             <br />

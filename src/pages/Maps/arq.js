@@ -14,6 +14,8 @@ import cemiterio from '../../assets/locais/cemiterio.jpg';
 import falhasanhaua from '../../assets/locais/falhasanhaua.jpg';
 import casarosa from '../../assets/locais/casarosa.JPG';
 import cacimba from '../../assets/locais/cacimba.JPG';
+import santoantonio from '../../assets/locais/santoantonio.JPG';
+import domulrico from '../../assets/locais/domulrico.jpg';
 
 const points = [
     {
@@ -84,8 +86,8 @@ const points = [
         "id": 10,
         "nome": "Praça Dom Adauto",
         "imagem": domadauto,
-        "latitude": -7.1165395,
-        "longitude": -34.8832397
+        "latitude": -7.11660,
+        "longitude": -34.88265
     },
     {
         "id": 11,
@@ -128,6 +130,21 @@ const points = [
         "imagem": cacimba,
         "latitude": -7.12931,
         "longitude": -34.88602
+    },
+    {
+        "id": 17,
+        "nome": "Fonte Santo Antônio",
+        "imagem": santoantonio,
+        "latitude": -7.11275,
+        "longitude": -34.88370
+    },
+    {
+        "id": 18,
+        "nome": "Praça Dom Ulrico",
+        "imagem": domulrico,
+        "latitude": -7.11550,
+        "longitude": -34.88465
+
     }
 
 ]

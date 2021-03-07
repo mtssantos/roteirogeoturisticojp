@@ -13,13 +13,13 @@ function Form(){
                         >
                         <div className="form-group">
                             <label>
-                                Your email:
+                               Seu E-mail:
                                 <input className="form-control" type="text" name="_replyto" />
                             </label>
                         </div>   
                         <div className="form-group">
                             <label>
-                                Your message:
+                                Sua Mensagem:
                                 <textarea className="form-control" name="message"></textarea>
                             </label>
                         </div>
