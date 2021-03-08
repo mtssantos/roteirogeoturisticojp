@@ -35,6 +35,30 @@ function Maps() {
             [-7.11750, -34.88300],
             [-7.11650, -34.8828]
         ]
+
+        const roteiro4 = [
+            [-7.11555, -34.88300],
+            [-7.11480, -34.88300],
+            [-7.1155, -34.88331],
+            [-7.11594, -34.88348],
+            [-7.11630, -34.88354],
+            [-7.11618, -34.88439],
+            [-7.11657, -34.88444],
+            [-7.11600, -34.88436],
+            [-7.11550, -34.88465],
+            [-7.11500, -34.88478],
+            [-7.11442, -34.88468],
+            [-7.11400, -34.88611],
+            [-7.11395, -34.88720],
+            [-7.11315, -34.88844],
+            [-7.11273, -34.88882],
+        ]
+
+        const roteiro5 = [
+            [-7.11454, -34.88266],
+            [-7.11351, -34.88253],
+            [-7.11275, -34.88370]
+        ]
        return(
         <div className="maps">
             <Map center={[-7.11454, -34.88233]} zoom={15}>
@@ -47,6 +71,8 @@ function Maps() {
                                 <Polyline color={"#3388ff"} positions={roteiro1} />
                                 <Polyline color={"#2e7d2d"} positions={roteiro2} />
                                 <Polyline color={"#ff6a00"} positions={roteiro3} />
+                                <Polyline color={"#f51d1d"} positions={roteiro4} />
+                                <Polyline color={"#f51d1d"} positions={roteiro5} />
                                 <Popup>
                                     <div className="point">
                                         <img src={point.imagem} alt="Imagem do Projeto" />
