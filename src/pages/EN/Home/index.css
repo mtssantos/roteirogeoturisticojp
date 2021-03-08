@@ -1,0 +1,179 @@
+.carousel-item {
+    height: 110vh;
+    min-height: 300px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+  
+  .carousel-caption h5 {
+    font-size: 35px;
+    letter-spacing: 2px;
+    margin-top: 25px;
+    font-weight: bold;
+  }
+  
+  .carousel-caption p {
+    width: 75%;
+    margin: auto;
+    font-size: 18px;
+    line-height: 1.9;
+  }
+  
+  .navbar-light .navbar-brand {
+    color: #fff;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+  }
+  
+  .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+    color: #fff;
+  }
+  
+  .navbar-light .navbar-nav .nav-link {
+    color: #fff;
+  }
+  
+  .navbar-toggler {
+    background: #fff;
+  }
+  
+  .navbar-nav {
+    text-align: center;
+  }
+  
+  .nav-link {
+    padding: .1rem 3rem;
+  }
+
+  
+  .nav-link.active,.nav-link:focus{
+    color: #fff;
+  }
+  
+  .navbar-toggler {
+    padding: 1px 5px;
+    font-size: 18px;
+    line-height: 0.3;
+  }
+  
+  .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: #fff;
+  }
+  .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav{
+      margin-top: -50px;
+  }
+
+  
+.logo{
+    width: 60%;
+}
+
+.blocos{
+    display: flex;
+}
+.bloco-1{
+    padding: 50px;
+}
+.bloco-2{
+    padding: 50px;
+}
+.bloco-3{
+    padding: 50px;
+}
+h2{
+  font-size: 25px;
+}
+.bottom-footer{
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  padding-bottom: 15px;
+}
+.btn{
+  width: 150px;
+  height: 45px;
+  font-size: 15px;
+  border-radius: 6px;
+}
+.btn-outline-primary{
+  width: 100px;
+}
+.buttons-submit{
+  display: flex;
+  justify-content: space-between;
+}
+.form-control{
+  display: block;
+  width: 300%;
+  height: 35px;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: .25rem;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.close > span {
+  font-size: 12px;
+}
+.material-icons{
+  color:#000;
+  font-size: 40px;
+}
+#ModalForm{
+  text-align: left;
+}
+span.nav-item{
+  cursor: pointer;
+}
+@media screen and (max-width: 767px) {
+    .carousel-item{
+        height: 10vh;
+    }
+    .carousel-indicators{
+        margin-bottom: 20px;
+    }
+    .carousel-caption h5{
+        font-size: 20px;
+    } 
+    .logo{
+        display: none;
+    }
+    .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav{
+        margin-top: 25px;
+    }
+    .blocos{
+        display: block;
+    }
+    .bloco-1{
+        padding: 20px;
+    }
+    .bloco-2{
+        padding: 20px;
+    }
+    .bloco-3{
+        padding: 20px;
+    }
+    .fotos{
+        height: 300px;
+    }
+    .show, .collapsing{
+        background-color: rgba(0, 0, 0, 0.5);
+        border-radius: 5px;
+    }
+    .bottom-footer{
+      display: flex;
+      justify-content: space-around;
+      text-align: center;
+      padding-bottom: 15px;
+    }
+}
