@@ -1,10 +1,11 @@
-import { Map, TileLayer, Popup, Polyline } from 'react-leaflet';
+import { Map, TileLayer, Marker, Popup, Polyline } from 'react-leaflet';
 import { Link } from 'react-router-dom';
-import "./index.css";
+import "../Rota_1/maps.css";
+import { roteiro_4 } from '../Maps/arq'
 
 
-function Maps() {
-
+export function Rota_4(){
+    
     const roteiro1 = [
         [-7.11459, -34.87739],
         [-7.11560, -34.87765],
@@ -61,16 +62,24 @@ function Maps() {
             [-7.11351, -34.88253],
             [-7.11275, -34.88370]
         ]
-
-
-       return(
-        <div className="maps">
-            <Map center={[-7.11920, -34.88233]} zoom={15.5}>
+    return(
+        <>
+            <Map center={[-7.11454, -34.88410]} zoom={17}>
                 <TileLayer
                     attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
                     url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
                 />
                 <Polyline color={"#3388ff"} positions={roteiro1}>
+                    <Popup>
+                        <Link to="/rota_1">
+                          Roteiro 1
+                        </Link>
+                    </Popup>                           
+                </Polyline>
+                <Polyline color={"#2e7d2d"} positions={roteiro2} />
+                <Polyline color={"#ff6a00"} positions={roteiro3} />
+                <Polyline color={"#f51d1d"} positions={roteiro4} />
+                <Polyline color={"#f51d1d"} positions={roteiro5} /> <Polyline color={"#3388ff"} positions={roteiro1}>
                     <Popup>
                         <Link to="/rota_1">
                           Roteiro 1
@@ -105,11 +114,19 @@ function Maps() {
                         </Link>
                     </Popup> 
                 </Polyline>
+                {roteiro_4.map(roteiros => (
+                    <Marker position={[roteiros.latitude, roteiros.longitude]} key={roteiros.id}>
+                          <Popup>
+                                    <div className="point">
+                                        <img src={roteiros.imagem} alt="Imagem do Projeto" />
+                                    </div>
+                                    <p>{roteiros.nome}</p>
+                            </Popup>
+                    </Marker>
+
+                ))}
+
                 </Map>
-        </div>
+        </>
     )
-    
 }
-
-
-export default Maps;
