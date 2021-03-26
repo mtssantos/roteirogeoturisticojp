@@ -9,9 +9,9 @@
     width: 120px;
     height: 40px;
 }
-#cola{
-    width: 120px;
-    height: 40px;    
+.link-roteiro{
+    text-align: center;
+    margin-top: 120px;
 }
 .point > img{
     width: 100%;

@@ -69,39 +69,49 @@ export function Rota_2(){
                     attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
                     url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
                 />
-                <Polyline color={"#3388ff"} positions={roteiro1}>
+                 <Polyline color={"#3388ff"} positions={roteiro1} weight={8}>
                     <Popup>
-                        <Link to="/rota_1">
-                          Roteiro 1
-                        </Link>
+                        <div className="link-roteiro">
+                            <Link to="/rota_1">
+                            Roteiro 1
+                            </Link>
+                        </div>
                     </Popup>                           
                 </Polyline>
-                <Polyline color={"#2e7d2d"} positions={roteiro2}>
+                <Polyline color={"#2e7d2d"} positions={roteiro2} weight={8}>
                     <Popup>
-                        <Link to="/rota_2">
-                            Roteiro 2
-                        </Link>
+                        <div className="link-roteiro">
+                            <Link to="/rota_2">
+                                Roteiro 2
+                            </Link>
+                        </div>
                     </Popup>
                 </Polyline>
-                <Polyline color={"#ff6a00"} positions={roteiro3}>
+                <Polyline color={"#ff6a00"} positions={roteiro3} weight={8}>
                     <Popup>
-                        <Link to="/rota_3">
-                            Roteiro 3
-                        </Link>
+                        <div className="link-roteiro">
+                            <Link to="/rota_3">
+                                Roteiro 3
+                            </Link>
+                        </div>
                     </Popup>
                 </Polyline>
-                <Polyline color={"#f51d1d"} positions={roteiro4}>
+                <Polyline color={"#f51d1d"} positions={roteiro4} weight={8}>
                     <Popup>
-                        <Link to="/rota_4">
-                            Roteiro 4
-                        </Link>
+                        <div className="link-roteiro">
+                            <Link to="/rota_4">
+                                Roteiro 4
+                            </Link>
+                        </div>
                     </Popup>                    
                 </Polyline>
-                <Polyline color={"#f51d1d"} positions={roteiro5}>
+                <Polyline color={"#f51d1d"} positions={roteiro5} weight={8}>
                     <Popup>
-                        <Link to="/rota_4">
-                            Roteiro 4
-                        </Link>
+                        <div className="link-roteiro">
+                            <Link to="/rota_4">
+                                Roteiro 4
+                            </Link>
+                        </div>
                     </Popup> 
                 </Polyline>
                 {roteiro_2.map(roteiros => (
