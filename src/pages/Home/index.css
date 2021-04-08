@@ -135,6 +135,10 @@ h2{
 span.nav-item{
   cursor: pointer;
 }
+#estados-unidos{
+  width: 40px;
+  margin-top: -15px;
+}
 @media screen and (max-width: 767px) {
     .carousel-item{
         height: 10vh;

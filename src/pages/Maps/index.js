@@ -1,6 +1,10 @@
 import { Map, TileLayer, Popup, Polyline } from 'react-leaflet';
 import { Link } from 'react-router-dom';
 import "./index.css";
+import rota_1 from '../../assets/rota_1.png'
+import rota_2 from '../../assets/rota_2.png'
+import rota_3 from '../../assets/rota_3.png'
+import rota_4 from '../../assets/rota_4.png'
 
 
 function Maps() {
@@ -65,54 +69,69 @@ function Maps() {
 
        return(
         <div className="maps">
-            <Map center={[-7.11920, -34.88233]} zoom={16}>
+            <Map center={[-7.11920, -34.88233]} zoom={15}>
                 <TileLayer
                     attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
                     url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
                 />
                  <Polyline color={"#3388ff"} positions={roteiro1} weight={8}>
                     <Popup>
-                        <div className="link-roteiro">
-                            <Link to="/rota_1">
-                            Roteiro 1
-                            </Link>
+                        <div id="point">
+                            <img src={rota_1} alt="Imagem do Projeto" />
                         </div>
+                            <Link to="/rota_1">
+                                <div>
+                                    Roteiro 1
+                                </div>
+                            </Link>
                     </Popup>                           
                 </Polyline>
                 <Polyline color={"#2e7d2d"} positions={roteiro2} weight={8}>
                     <Popup>
-                        <div className="link-roteiro">
-                            <Link to="/rota_2">
-                                Roteiro 2
-                            </Link>
+                    <div id="point">
+                            <img src={rota_2} alt="Imagem do Projeto" />
                         </div>
+                            <Link to="/rota_2">
+                                <div>
+                                    Roteiro 2
+                                </div>
+                            </Link>
                     </Popup>
                 </Polyline>
                 <Polyline color={"#ff6a00"} positions={roteiro3} weight={8}>
                     <Popup>
-                        <div className="link-roteiro">
-                            <Link to="/rota_3">
-                                Roteiro 3
-                            </Link>
+                    <div id="point">
+                            <img src={rota_3} alt="Imagem do Projeto" />
                         </div>
+                            <Link to="/rota_3">
+                                <div>
+                                    Roteiro 3
+                                </div>
+                            </Link>
                     </Popup>
                 </Polyline>
                 <Polyline color={"#f51d1d"} positions={roteiro4} weight={8}>
                     <Popup>
-                        <div className="link-roteiro">
-                            <Link to="/rota_4">
-                                Roteiro 4
-                            </Link>
+                    <div id="point">
+                            <img src={rota_4} alt="Imagem do Projeto" />
                         </div>
+                            <Link to="/rota_4">
+                                <div>
+                                    Roteiro 4
+                                </div>
+                            </Link>
                     </Popup>                    
                 </Polyline>
                 <Polyline color={"#f51d1d"} positions={roteiro5} weight={8}>
                     <Popup>
-                        <div className="link-roteiro">
-                            <Link to="/rota_4">
-                                Roteiro 4
-                            </Link>
+                    <div id="point">
+                            <img src={rota_4} alt="Imagem do Projeto" />
                         </div>
+                            <Link to="/rota_4">
+                                <div>
+                                    Roteiro 4
+                                </div>
+                            </Link>
                     </Popup> 
                 </Polyline>
                 </Map>

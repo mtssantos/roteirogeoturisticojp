@@ -2,6 +2,7 @@ import logo from '../../assets/Vector.svg';
 import { Link } from "react-router-dom";
 import ModalCriterios from "../Modal";
 import "./index.css";
+import estadosunidos from "../../assets/estadosunidos.png";
 
 function NavBar(){
     return(
@@ -37,14 +38,14 @@ function NavBar(){
                                 <li className="dropdown">
                                     <span className="nav-link" data-toggle="dropdown">Publicações</span>
                                     <div className="dropdown-menu">
-                                        <Link to="/" className="dropdown-item">Dropdown Item 1</Link>
-                                        <Link to="/" className="dropdown-item">Dropdown Item 2</Link>
-                                        <Link to="/" className="dropdown-item">Dropdown Item 3</Link>
-                                        <Link to="/" className="dropdown-item">Dropdown Item 4</Link>
-                                        <Link to="/" className="dropdown-item">Dropdown Item 5</Link>
+                                        <Link to="/" className="dropdown-item">Geodiversidade</Link>
+                                        <Link to="/" className="dropdown-item">Geopatrimônio</Link>
+                                        <Link to="/" className="dropdown-item">Geoconservação</Link>
+                                        <Link to="/" className="dropdown-item">Geoturismo</Link>
                                     </div>
                                 </li>
                                 <li><Link to="/" className="nav-link">Sobre o projeto</Link></li>
+                                <li><Link to="/en" className="nav-item nav-link"><img src={estadosunidos} id="estados-unidos" alt="Estados Unidos" /></Link></li>
                             </ul>
                         </div>
                     </div>

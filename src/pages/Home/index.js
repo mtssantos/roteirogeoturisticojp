@@ -1,17 +1,13 @@
-import { Link, Redirect } from "react-router-dom";
+import { Link } from "react-router-dom";
 import logo from '../../assets/Vector.svg';
 import Form from "../../components/Form";
 import ModalCriterios from "../../components/Modal";
 import "./index.css";
 import "./navbar.css"
+import estadosunidos from "../../assets/estadosunidos.png";
 
 
 function Home() {
-    let lang = localStorage.getItem('lang');
-
-    if(lang === null){
-        return <Redirect to="/lang" />
-    }
     
    return(
         <div className="Home">
@@ -46,17 +42,9 @@ function Home() {
                                         <Link to="/" className="dropdown-item">Dropdown Item 3</Link>
                                     </div>
                                 </li>
-                                <li className="dropdown">
-                                    <span className="nav-item nav-link" data-toggle="dropdown">Publicações</span>
-                                    <div className="dropdown-menu">
-                                        <Link to="/" className="dropdown-item">Dropdown Item 1</Link>
-                                        <Link to="/" className="dropdown-item">Dropdown Item 2</Link>
-                                        <Link to="/" className="dropdown-item">Dropdown Item 3</Link>
-                                        <Link to="/" className="dropdown-item">Dropdown Item 4</Link>
-                                        <Link to="/" className="dropdown-item">Dropdown Item 5</Link>
-                                    </div>
-                                </li>
+                                <li><Link className="nav-item nav-link" to="/publi">Publicações</Link></li>
                                 <li><Link to="/" className="nav-item nav-link">Sobre o projeto</Link></li>
+                                <li><Link to="/en" className="nav-item nav-link"><img src={estadosunidos} id="estados-unidos" alt="Estados Unidos" /></Link></li>
                             </ul>
                         </div>
                     </div>

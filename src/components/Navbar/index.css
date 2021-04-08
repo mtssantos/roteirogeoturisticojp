@@ -16,7 +16,7 @@ span.nav-link, a.nav-link{
     margin-bottom: 20px;
 }
 
-#nav-intro-tab, #nav-historico-tab, #nav-definicao-tab, #nav-geourbano-tab, #nav-geobrasil-tab{
+#nav-intro-tab, #nav-historico-tab, #nav-definicao-tab, #nav-geourbano-tab, #nav-geobrasil-tab, #nav-geoconser-tab, #nav-geopatri-tab, #nav-geodiver-tab, #nav-geoturismo-tab{
     color:black;
 }
 
@@ -44,4 +44,15 @@ table, thead, tbody, th, tr, td{
 }
 .meu-menu li{
     padding-left: 10px;
+}
+#estados-unidos{
+    width: 40px;
+    margin-top: -15px;
+}
+
+@media screen and (max-width: 767px) {
+    #estados-unidos{
+        width: 40px;
+        margin-top: 5px;
+    }
 }
