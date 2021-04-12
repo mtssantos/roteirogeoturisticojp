@@ -5,7 +5,7 @@ import { roteiro_4 } from '../Maps/arq';
 import rota_1 from '../../assets/rota_1.png'
 import rota_2 from '../../assets/rota_2.png'
 import rota_3 from '../../assets/rota_3.png'
-import rota_4 from '../../assets/rota_4.png'
+import rota_4 from '../../assets/rota_4.png' 
 
 
 export function Rota_4(){
@@ -139,7 +139,7 @@ export function Rota_4(){
                                     <div className="point">
                                         <img src={roteiros.imagem} alt="Imagem do Projeto" />
                                     </div>
-                                    <p>{roteiros.nome}</p>
+                                    <Link to={roteiros.link}>{roteiros.nome}</Link>
                             </Popup>
                     </Marker>
 

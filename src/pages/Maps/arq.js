@@ -24,14 +24,16 @@ export const roteiro_1 = [
         "nome": "Fonte Tambiá",
         "imagem": fonte,
         "latitude": -7.11325,
-        "longitude": -34.87580 
+        "longitude": -34.87580,
+        "link": "local/1"
     },
     {
         "id": 6,
         "nome": "Praça da Idependência",
         "imagem": pracaindependencia,
         "latitude": -7.119194, 
-        "longitude": -34.871361
+        "longitude": -34.871361,
+        "link": "local/3"
         
     },
     {
@@ -48,7 +50,8 @@ export const roteiro_2 = [
         "nome": "Praça da Pedra",
         "imagem": pedra,
         "latitude":-7.12139,
-        "longitude":-34.88925
+        "longitude":-34.88925,
+        "link": "local/5"
     },
     {
         "id": 13,
@@ -87,7 +90,8 @@ export const roteiro_3 = [
         "nome": "Praça João Pessoa",
         "imagem": pracajoaopessoa,
         "latitude":-7.121570, 
-        "longitude": -34.883775
+        "longitude": -34.883775,
+        "link": "local/4"
     },
     {
         "id": 11,

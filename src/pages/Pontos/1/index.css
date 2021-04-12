@@ -1,0 +1,19 @@
+
+.figure-caption{
+    font-size: 17px;
+    text-align: center;
+}
+.text-1{
+    background-color: white;
+}
+a.lt{
+    cursor: pointer;
+    color:black;
+}
+.figure{
+    padding-right: 90px;
+}
+p{
+    text-align: justify;
+    text-indent: 4em;
+}
