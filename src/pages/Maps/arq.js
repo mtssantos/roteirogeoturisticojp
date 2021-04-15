@@ -58,7 +58,8 @@ export const roteiro_2 = [
         "nome": "Cemitério Senhor da Boa Sentença",
         "imagem": cemiterio,
         "latitude": -7.12384,
-        "longitude": -34.89229
+        "longitude": -34.89229,
+        "link": "local/6"
     },
     {
         "id": 16,

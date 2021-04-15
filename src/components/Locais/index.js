@@ -40,7 +40,7 @@ function Locais(){
       </div>
         <div className="card">
           <div className="card-body">
-            <h5 className="card-title">Cemitério Senhor da Boa Sentença</h5>
+            <Link to="local/6" className="card-title">Cemitério Senhor da Boa Sentença</Link>
           </div>
       </div>
       </div>
@@ -48,19 +48,19 @@ function Locais(){
       <div className="card-deck">
         <div className="card">
           <div className="card-body">
-            <h5 className="card-title">Afloramento da Formação Gramame</h5>
+            <Link to="local/7" className="card-title">Afloramento da Formação Gramame</Link>
             <p className="card-text"></p>
           </div>
       </div>
         <div className="card">
           <div className="card-body">
-            <h5 className="card-title">Cacimba do Povo</h5>
+            <Link to="local/8" className="card-title">Cacimba do Povo</Link>
             <p className="card-text"></p>
           </div>
       </div>
         <div className="card">
           <div className="card-body">
-            <h5 className="card-title">Balaustrada das Trincheiras</h5>
+            <Link to="local/9" className="card-title">Balaustrada das Trincheiras</Link>
             <p className="card-text"></p>
           </div>
       </div>
@@ -69,19 +69,19 @@ function Locais(){
       <div className="card-deck">
         <div className="card">
           <div className="card-body">
-            <h5 className="card-title">Afloramento da Formação Beberibe</h5>
+            <Link to="local/10" className="card-title">Afloramento da Formação Beberibe</Link>
             <p className="card-text"></p>
           </div>
       </div>
           <div className="card">
           <div className="card-body">
-            <h5 className="card-title">Gruta da Marés</h5>
+            <Link to="local/11" className="card-title">Gruta da Marés</Link>
             <p className="card-text"></p>
           </div>
       </div>
           <div className="card">
           <div className="card-body">
-            <h5 className="card-title">Arenização do Barreiras</h5>
+            <Link to="local/12" className="card-title">Arenização do Barreiras</Link>
             <p className="card-text"></p>
           </div>
       </div>
@@ -91,19 +91,19 @@ function Locais(){
       <div className="card-deck">
         <div className="card">
           <div className="card-body">
-            <h5 className="card-title">Fóssil das Trincheiras</h5>
+            <Link to="local/13" className="card-title">Fóssil das Trincheiras</Link>
             <p className="card-text"></p>
           </div>
       </div>
       <div className="card">
         <div className="card-body">
-          <h5 className="card-title">Dolina dos Irerês</h5>
+          <Link to="local/14" className="card-title">Dolina dos Irerês</Link>
           <p className="card-text"></p>
         </div>
     </div>
     <div className="card">
       <div className="card-body">
-        <h5 className="card-title">Santa Casa da Misericórdia</h5>
+        <Link to="local/15" className="card-title">Santa Casa da Misericórdia</Link>
         <p className="card-text"></p>
       </div>
     </div>
