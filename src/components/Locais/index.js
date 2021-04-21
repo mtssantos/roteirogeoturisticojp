@@ -140,7 +140,7 @@ function Locais(){
           </div>
           <div className="card">
               <div className="card-body">
-                <h5 className="card-title">Fonte de Santo Antônio</h5>
+                <h5 className="card-title">Fonte de Santo Ant ônio</h5>
                 <p className="card-text"></p>
               </div>
           </div>
