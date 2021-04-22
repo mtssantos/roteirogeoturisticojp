@@ -6,6 +6,7 @@ import { ArenizaBarreira } from '../pages/Pontos/12';
 import { Fossil } from '../pages/Pontos/13';
 import { Dolina } from '../pages/Pontos/14';
 import { Misericordia } from '../pages/Pontos/15';
+import { PracaRioBranco } from '../pages/Pontos/16';
 import { BicaFeia } from '../pages/Pontos/2';
 import { PracaIndepen } from '../pages/Pontos/3';
 import { PracaJoao } from '../pages/Pontos/4';
@@ -34,6 +35,7 @@ export function RouterPontos(){
         <Route path="/local/13" component={Fossil} />
         <Route path="/local/14" component={Dolina} />
         <Route path="/local/15" component={Misericordia} />
+        <Route path="/local/16" component={PracaRioBranco} />
         </>
     )
 }

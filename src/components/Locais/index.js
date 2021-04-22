@@ -112,7 +112,7 @@ function Locais(){
       <div className="card-deck">
           <div className="card">
               <div className="card-body">
-                <h5 className="card-title">Praça Rio Branco</h5>
+                <Link to="local/16" className="card-title">Praça Rio Branco</Link>
                 <p className="card-text"></p>
               </div>
           </div>
