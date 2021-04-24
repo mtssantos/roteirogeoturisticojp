@@ -139,8 +139,10 @@ export function Rota_4(){
                                     <div className="point">
                                         <img src={roteiros.imagem} alt="Imagem do Projeto" />
                                     </div>
-                                    <Link to={roteiros.link}>{roteiros.nome}</Link>
-                            </Popup>
+                                    <div id="e-link">
+                                        <Link to={roteiros.link}>{roteiros.nome}</Link>
+                                    </div>
+                        </Popup>
                     </Marker>
 
                 ))}

@@ -25,7 +25,10 @@
     width: 230px;
     height: 230px;
 }
-.leaflet-popup-content p{
+#point > a{
+    text-align: center;
+}
+.leaflet-popup-content a{
     text-align: center;
     margin-top: 9px;
 }

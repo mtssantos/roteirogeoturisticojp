@@ -44,7 +44,8 @@
   }
   
   .navbar-nav {
-    text-align: center;
+    text-align: center; 
+    margin-left:25px;
   }
   
   .nav-link {

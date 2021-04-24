@@ -16,6 +16,11 @@
     text-align: center;
     margin-top: 9px;
 }
+#e-link{
+    text-align: center;
+    margin-top: 11px;
+    font-size: 15px;
+}
 
 .caixa{
     height: 50px;

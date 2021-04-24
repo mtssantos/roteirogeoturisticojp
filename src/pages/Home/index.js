@@ -46,7 +46,7 @@ function Home() {
                                 <li><Link to="/" className="nav-item nav-link">Sobre o projeto</Link></li>
                                 <li><Link to="/en" className="nav-item nav-link"><img src={estadosunidos} id="estados-unidos" alt="Estados Unidos" /></Link></li>
                             </ul>
-                        </div>
+                    </div>
                     </div>
                     <ModalCriterios />
                 </nav>

@@ -36,13 +36,7 @@ function NavBar(){
                                     </div>
                                 </li>
                                 <li className="dropdown">
-                                    <span className="nav-link" data-toggle="dropdown">Publicações</span>
-                                    <div className="dropdown-menu">
-                                        <Link to="/" className="dropdown-item">Geodiversidade</Link>
-                                        <Link to="/" className="dropdown-item">Geopatrimônio</Link>
-                                        <Link to="/" className="dropdown-item">Geoconservação</Link>
-                                        <Link to="/" className="dropdown-item">Geoturismo</Link>
-                                    </div>
+                                    <Link to="/publi" className="nav-link" data-toggle="dropdown">Publicações</Link>
                                 </li>
                                 <li><Link to="/" className="nav-link">Sobre o projeto</Link></li>
                                 <li><Link to="/en" className="nav-item nav-link"><img src={estadosunidos} id="estados-unidos" alt="Estados Unidos" /></Link></li>

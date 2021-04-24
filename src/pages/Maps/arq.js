@@ -18,6 +18,7 @@ import santoantonio from '../../assets/locais/santoantonio.JPG';
 import domulrico from '../../assets/locais/domulrico.jpg';
 
 
+
 export const roteiro_1 = [
     {
         "id":2,
@@ -41,7 +42,8 @@ export const roteiro_1 = [
         "nome": "Casa do Quartzo Rosa",
         "imagem": casarosa,
         "latitude": -7.12440,
-        "longitude": -34.87220
+        "longitude": -34.87220,
+        "link": "local/25"
     },    
 ]
 export const roteiro_2 = [
@@ -66,14 +68,16 @@ export const roteiro_2 = [
         "nome": "Cacimba do Povo",
         "imagem": cacimba,
         "latitude": -7.12931,
-        "longitude": -34.88602
+        "longitude": -34.88602,
+        "link": "local/8"
     },
     {
         "id":4,
         "nome": "Balaustrada das Trincheiras",
         "imagem": balaustrada,
         "latitude":-7.1316706,
-        "longitude": -34.8822226
+        "longitude": -34.8822226,
+        "link": "local/9"
     },
    
 ]
@@ -84,7 +88,8 @@ export const roteiro_3 = [
         "nome": "Dolina dos Irerês",
         "imagem": dolina,
         "latitude": -7.120056,
-        "longitude":  -34.880250
+        "longitude":  -34.880250,
+        "link": "local/14"
     },
     {
         "id": 7,
@@ -99,21 +104,24 @@ export const roteiro_3 = [
         "nome": "Santa Casa da Misericórdia",
         "imagem": misericordia,
         "latitude": -7.1188,
-        "longitude": -34.8836   
+        "longitude": -34.8836,
+        "link": "local/15"
     },
     {
         "id": 8,
         "nome": "Praça Rio Branco",
         "imagem": pracariobranco,
         "latitude": -7.117565, 
-        "longitude": -34.883469
+        "longitude": -34.883469,
+        "link": "local/16"
     },
     {
         "id": 10,
         "nome": "Praça Dom Adauto",
         "imagem": domadauto,
         "latitude": -7.11660,
-        "longitude": -34.88265
+        "longitude": -34.88265,
+        "link": "local/17"
     },
 ]
 
@@ -121,24 +129,27 @@ export const roteiro_3 = [
 export const roteiro_4 = [
     {
         "id": 1,
-        "nome": "Igreja São Francisco",
+        "nome": "Centro Cultural São Francisco",
         "imagem": saofrancisco,
         "latitude":-7.11454,
-        "longitude": -34.88266
+        "longitude": -34.88266,
+        "link": "local/19"
     },
     {
         "id": 9,
         "nome": "Mosteiro de São Bento",
         "imagem": mosteirosaobento,
         "latitude": -7.116620,
-        "longitude":  -34.884545
+        "longitude":  -34.884545,
+        "link": "local/22"
     },
     {
         "id": 12,
         "nome": "Academia Paraibana de Letras",
         "imagem": academia,
         "latitude": -7.116100,
-        "longitude": -34.88330
+        "longitude": -34.88330,
+        "link": "local/18"
     },
 
     {
@@ -146,7 +157,8 @@ export const roteiro_4 = [
         "nome": "Falha de Sahahuá",
         "imagem": falhasanhaua,
         "latitude": -7.11270,
-        "longitude": -34.88875
+        "longitude": -34.88875,
+        "link": "local/24"
     },
 
     {
@@ -154,14 +166,16 @@ export const roteiro_4 = [
         "nome": "Fonte Santo Antônio",
         "imagem": santoantonio,
         "latitude": -7.11275,
-        "longitude": -34.88370
+        "longitude": -34.88370,
+        "link": "local/20"
     },
     {
         "id": 18,
         "nome": "Praça Dom Ulrico",
         "imagem": domulrico,
         "latitude": -7.11550,
-        "longitude": -34.88465
+        "longitude": -34.88465,
+        "link": "local/21"
 
     }
 

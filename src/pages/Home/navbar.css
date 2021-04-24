@@ -72,7 +72,7 @@ p {
 .header-area {
   position: relative;
   height: 100vh;
-  background: #5bc0de;
+  background-color: #000;
   background-attachment: fixed;
   background-position: center center;
   background-repeat: no-repear;
@@ -85,12 +85,12 @@ p {
   height: 100%;
   color: #fff;
   background: url('../../assets/image_1.jpg');
-
   text-align: center;
   z-index: 1;
 }
 .banner h1 {
   font-weight: 800;
+  opacity: 1;
 }
 .banner p {
   font-weight: 700;
