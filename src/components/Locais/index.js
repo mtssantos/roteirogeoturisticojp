@@ -118,58 +118,13 @@ function Locais(){
           </div>
           <div className="card">
               <div className="card-body">
-                <h5 className="card-title">Praça Dom Adauto</h5>
+                <Link to="local/17" className="card-title">Praça Dom Adauto</Link>
                 <p className="card-text"></p>
               </div>
           </div>
           <div className="card">
               <div className="card-body">
-                <h5 className="card-title">Academia Paraibana de Letras</h5>
-                <p className="card-text"></p>
-              </div>
-          </div>
-    
-      </div>
-      <br />
-      <div className="card-deck">
-          <div className="card">
-              <div className="card-body">
-                <h5 className="card-title">Centro Cultural São Francisco</h5>
-                <p className="card-text"></p>
-              </div>
-          </div>
-          <div className="card">
-              <div className="card-body">
-                <h5 className="card-title">Fonte de Santo Ant ônio</h5>
-                <p className="card-text"></p>
-              </div>
-          </div>
-          <div className="card">
-              <div className="card-body">
-                <h5 className="card-title">Praça Dom Ulrico</h5>
-                <p className="card-text"></p>
-              </div>
-          </div>
-    
-    
-      </div>
-      <br />
-      <div className="card-deck">
-          <div className="card">
-              <div className="card-body">
-                <h5 className="card-title">Mosteiro de São Bento</h5>
-                <p className="card-text"></p>
-              </div>
-          </div>
-          <div className="card">
-              <div className="card-body">
-                <h5 className="card-title">Fonte dos Milagres</h5>
-                <p className="card-text"></p>
-              </div>
-          </div>
-          <div className="card">
-              <div className="card-body">
-                <h5 className="card-title">Falha de Sanhauá</h5>
+                <Link to="local/18" className="card-title">Academia Paraibana de Letras</Link>
                 <p className="card-text"></p>
               </div>
           </div>
@@ -179,7 +134,52 @@ function Locais(){
       <div className="card-deck">
           <div className="card">
               <div className="card-body">
-                <h5 className="card-title">Casa do Quartzo Rosa</h5>
+                <Link to="local/19" className="card-title">Centro Cultural São Francisco</Link>
+                <p className="card-text"></p>
+              </div>
+          </div>
+          <div className="card">
+              <div className="card-body">
+                <Link to="local/20" className="card-title">Fonte de Santo Antônio</Link>
+                <p className="card-text"></p>
+              </div>
+          </div>
+          <div className="card">
+              <div className="card-body">
+                <Link to="local/21" className="card-title">Praça Dom Ulrico</Link>
+                <p className="card-text"></p>
+              </div>
+          </div>
+    
+    
+      </div>
+      <br />
+      <div className="card-deck">
+          <div className="card">
+              <div className="card-body">
+                <Link to="local/22" className="card-title">Mosteiro de São Bento</Link>
+                <p className="card-text"></p>
+              </div>
+          </div>
+          <div className="card">
+              <div className="card-body">
+                <Link to="local/23" className="card-title">Fonte dos Milagres</Link>
+                <p className="card-text"></p>
+              </div>
+          </div>
+          <div className="card">
+              <div className="card-body">
+                <Link to="local/24" className="card-title">Falha de Sanhauá</Link>
+                <p className="card-text"></p>
+              </div>
+          </div>
+    
+      </div>
+      <br />
+      <div className="card-deck">
+          <div className="card">
+              <div className="card-body">
+                <Link to="local/25" className="card-title">Casa do Quartzo Rosa</Link>
                 <p className="card-text"></p>
               </div>
           </div>
