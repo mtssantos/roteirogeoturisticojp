@@ -10,6 +10,7 @@ import { Rota_2 } from '../pages/Rota_2';
 import { Rota_4 } from '../pages/Rota_4';
 import { Publicações } from '../pages/Home/publi';
 import { RouterPontos } from './PontosRouter';
+import { Territorio } from '../pages/Territorio';
 
 
 export function Routes(){
@@ -25,6 +26,7 @@ export function Routes(){
             <Route path="/geoturism" component={Geoturism} />
             <Route path="/locais" component={Pontos} />
             <Route path="/publi" component={Publicações} />
+            <Route path="/territorio" component={Territorio} />
             <RouterPontos />
         </BrowserRouter>
     )

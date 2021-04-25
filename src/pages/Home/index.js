@@ -35,12 +35,7 @@ function Home() {
                                     </div>
                                 </li>
                                 <li className="dropdown">
-                                    <span className="nav-item nav-link" data-toggle="dropdown">Nosso Território</span>
-                                    <div className="dropdown-menu">
-                                        <Link to="/" className="dropdown-item">Dropdown Item 1</Link>
-                                        <Link to="/" className="dropdown-item">Dropdown Item 2</Link>
-                                        <Link to="/" className="dropdown-item">Dropdown Item 3</Link>
-                                    </div>
+                                    <Link to="/territorio" className="nav-item nav-link" data-toggle="dropdown">Nosso Território</Link>
                                 </li>
                                 <li><Link className="nav-item nav-link" to="/publi">Publicações</Link></li>
                                 <li><Link to="/" className="nav-item nav-link">Sobre o projeto</Link></li>

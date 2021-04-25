@@ -28,12 +28,7 @@ function NavBar(){
                                     </div>
                                 </li>
                                 <li className="dropdown">
-                                    <span className="nav-link" data-toggle="dropdown">Nosso Território</span>
-                                    <div className="dropdown-menu">
-                                        <Link to="/" className="dropdown-item">Dropdown Item 1</Link>
-                                        <Link to="/" className="dropdown-item">Dropdown Item 2</Link>
-                                        <Link to="/" className="dropdown-item">Dropdown Item 3</Link>
-                                    </div>
+                                    <Link to="/territorio" className="nav-link" data-toggle="dropdown">Nosso Território</Link>
                                 </li>
                                 <li className="dropdown">
                                     <Link to="/publi" className="nav-link" data-toggle="dropdown">Publicações</Link>
