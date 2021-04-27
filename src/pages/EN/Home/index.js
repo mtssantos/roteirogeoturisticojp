@@ -28,18 +28,18 @@ function Home() {
                         
                         <div id="main-nav" className="collapse navbar-collapse">
                             <ul className="navbar-nav ml-auto">
-                                <li><Link to="/geoturism" className="nav-item nav-link active">Geoturismo</Link></li>
+                                <li><Link to="/geoturism" className="nav-item nav-link active">Geotourism</Link></li>
                                 <li className="dropdown">
-                                    <span className="nav-item nav-link" data-toggle="dropdown">Explorar</span>
+                                    <span className="nav-item nav-link" data-toggle="dropdown">Explore</span>
                                     <div className="dropdown-menu">
-                                        <button className="dropdown-item" data-toggle="modal" data-target="#exampleModal">Critérios</button>
-                                        <Link to="/locais" className="dropdown-item">Locais de Interesse</Link>
-                                        <Link to="/" className="dropdown-item">Fichas</Link>                                        
-                                        <Link to="/" className="dropdown-item">Exploração Temática</Link>                                        
+                                        <button className="dropdown-item" data-toggle="modal" data-target="#exampleModal">Criteria</button>
+                                        <Link to="/locais" className="dropdown-item">Place Of Interest</Link>
+                                        <Link to="/" className="dropdown-item">Files</Link>                                        
+                                        <Link to="/" className="dropdown-item">Thematic Exploration</Link>                                        
                                     </div>
                                 </li>
                                 <li className="dropdown">
-                                    <span className="nav-item nav-link" data-toggle="dropdown">Nosso Território</span>
+                                    <span className="nav-item nav-link" data-toggle="dropdown">Our Territory</span>
                                     <div className="dropdown-menu">
                                         <Link to="/" className="dropdown-item">Dropdown Item 1</Link>
                                         <Link to="/" className="dropdown-item">Dropdown Item 2</Link>
@@ -47,7 +47,7 @@ function Home() {
                                     </div>
                                 </li>
                                 <li className="dropdown">
-                                    <span className="nav-item nav-link" data-toggle="dropdown">Publicações</span>
+                                    <span className="nav-item nav-link" data-toggle="dropdown">Publishing</span>
                                     <div className="dropdown-menu">
                                         <Link to="/" className="dropdown-item">Dropdown Item 1</Link>
                                         <Link to="/" className="dropdown-item">Dropdown Item 2</Link>
@@ -56,7 +56,7 @@ function Home() {
                                         <Link to="/" className="dropdown-item">Dropdown Item 5</Link>
                                     </div>
                                 </li>
-                                <li><Link to="/" className="nav-item nav-link">Sobre o projeto</Link></li>
+                                <li><Link to="/" className="nav-item nav-link">About the Project</Link></li>
                             </ul>
                         </div>
                     </div>
@@ -65,7 +65,7 @@ function Home() {
                 
                 <div className="banner">
                     <div className="container">
-                        <h1>Roteiro Geoturistico do Centro Histórico do João Pessoa</h1>
+                        <h1>Geotourism Tour Of Historic Center Of João Pessoa</h1>
                     </div>
                 </div>
             </header>
@@ -73,33 +73,33 @@ function Home() {
             <div className="container">
                 <div className="blocos">
                     <div className="bloco-1">
-                        <h2>Locais de Interesse</h2>
-                        <p>Capital do Estado da Paraíba, João Pessoa possui um dos centros históricos mais antigos do país, repleto de igrejas, monumentos, praças históricas, obeliscos e fontes.</p>
+                        <h2>Places Of Interest</h2>
+                        <p>Capital of the State of Paraíba, João Pessoa has one of the oldest historic centers in the country, full of churches, monuments, historic squares, obelisks and fountains.</p>
                         <Link to="/maps">
-                            <strong>Visitar</strong>
+                            <strong>Visit</strong>
                         </Link>
                     </div>
                     <div className="bloco-2">
-                        <h2>Sobre o Centro Histórico</h2>
-                        <p>Capital do Estado da Paraíba, João Pessoa possui um dos centros históricos mais antigos do país, repleto de igrejas, monumentos, praças históricas, obeliscos e fontes.</p>
+                        <h2>About The Historic Center</h2>
+                        <p>Capital of the State of Paraíba, João Pessoa has one of the oldest historic centers in the country, full of churches, monuments, historic squares, obelisks and fountains.</p>
                         <Link to="/en">
-                            <strong>Visitar</strong>
+                            <strong>Visit</strong>
                         </Link>
                     </div>
                     <div className="bloco-3">
-                        <h2>Como chegar aqui</h2>
-                        <p>Situado no extremo oriental das Américas, João Pessoa é facilmente acessado através do Aeroporto Castro Pinto, distante 10 Km e pelo Terminal Rodoviário Severino Camelo, no centro de João Pessoa.</p>
+                        <h2>How to get here</h2>
+                        <p>Located at the eastern end of the Americas, João Pessoa is easily accessed through Castro Pinto Airport, 10 km away and by Severino Camelo Bus Terminal, in the center of João Pessoa.</p>
                         <Link to="/en">
-                            <strong>Visitar</strong>
+                            <strong>Visit</strong>
                         </Link>
                     </div>
                 </div>
             </div>
                 <div className="container">
                 <div className="bottom-footer">
-                    <button type="button" className="btn btn-info btn-lg" data-toggle="modal" data-target="#ModalForm">Envie um e-mail</button>
+                    <button type="button" className="btn btn-info btn-lg" data-toggle="modal" data-target="#ModalForm">Send an e-mail</button>
                     <Form />
-                    <span className="visit"> <span>Visitas ao site</span></span>
+                    <span className="visit"> <span>Visits to the site</span></span>
                 </div>
                 </div>
             </div>

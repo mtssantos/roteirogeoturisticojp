@@ -11,14 +11,14 @@ function Geoturism(){
         <>
           <NavBar/>
           <div className="container">
-            <h2>Textos sobre Geoturismo</h2>
+            <h2>Texts About Geotourism</h2>
             <nav>
                 <div className="nav nav-tabs" id="nav-tab" role="tablist">
-                    <a className="nav-link active" id="nav-intro-tab" data-toggle="tab" href="#nav-intro" role="tab" aria-controls="nav-intro" aria-selected="true">Introdução</a>
-                    <a className="nav-link" id="nav-historico-tab" data-toggle="tab" href="#nav-historico" role="tab" aria-controls="nav-historico" aria-selected="false">Histórico</a>
-                    <a className="nav-link" id="nav-definicao-tab" data-toggle="tab" href="#nav-definicao" role="tab" aria-controls="nav-definicao" aria-selected="false">Definição</a>
-                    <a className="nav-link" id="nav-geourbano-tab" data-toggle="tab" href="#nav-geourbano" role="tab" aria-controls="nav-geourbano" aria-selected="false">Geoturismo Urbano</a>
-                    <a className="nav-link" id="nav-geobrasil-tab" data-toggle="tab" href="#nav-geobrasil" role="tab" aria-controls="nav-geobrasil" aria-selected="false">Geoturismo no Brasil</a>
+                    <a className="nav-link active" id="nav-intro-tab" data-toggle="tab" href="#nav-intro" role="tab" aria-controls="nav-intro" aria-selected="true">Introduction</a>
+                    <a className="nav-link" id="nav-historico-tab" data-toggle="tab" href="#nav-historico" role="tab" aria-controls="nav-historico" aria-selected="false">Historic</a>
+                    <a className="nav-link" id="nav-definicao-tab" data-toggle="tab" href="#nav-definicao" role="tab" aria-controls="nav-definicao" aria-selected="false">Definition</a>
+                    <a className="nav-link" id="nav-geourbano-tab" data-toggle="tab" href="#nav-geourbano" role="tab" aria-controls="nav-geourbano" aria-selected="false">Urban Geotourism</a>
+                    <a className="nav-link" id="nav-geobrasil-tab" data-toggle="tab" href="#nav-geobrasil" role="tab" aria-controls="nav-geobrasil" aria-selected="false">Geotourism In Brazil</a>
                 </div>
                 </nav>
                 <div className="tab-content" id="nav-tabContent">
