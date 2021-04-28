@@ -11,7 +11,7 @@ export function Fichas(){
         <NavBar />
         <div className="container">
             <h2>Fichas</h2>
-            <div className="row row-cols-1 row-cols-md-2">
+            <div className="row row-cols-1 row-cols-md-3">
                 {documentos.map(doc => (
                      <div className="card cartao">
                         <img src={doc.image} className="card-img-top" alt={doc.name} />

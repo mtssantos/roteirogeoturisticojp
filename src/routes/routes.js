@@ -13,7 +13,7 @@ import { Publicações } from '../pages/Home/publi';
 import { RouterPontos } from './PontosRouter';
 import { Territorio } from '../pages/Territorio';
 import { Fichas } from '../pages/Fichas';
-import { EN_Pontos } from '../pages/EN/Home/EN_Pontos';
+import { Ponts } from '../pages/EN/Ponts';
 
 
 export function Routes(){
@@ -29,7 +29,7 @@ export function Routes(){
             <Route path="/geoturism" component={Geoturism} />
             <Route path="/en_geoturism" component={EN_Geoturism} />
             <Route path="/locais" component={Pontos} />
-            <Route path="/en_locais" component={EN_Pontos} />
+            <Route path="/en_locais" component={Ponts} />
             <Route path="/publi" component={Publicações} />
             <Route path="/territorio" component={Territorio} />
             <Route path="/fichas" component={Fichas} />

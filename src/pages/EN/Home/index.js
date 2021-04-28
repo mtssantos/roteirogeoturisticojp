@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import logo from '../../../assets/Vector.svg';
 import Form from "../../../components/EN/Form";
 import ModalCriterios from "../../../components/EN/Modal";
+import brasil from "../../../assets/brasil.jpg"
 import "./index.css";
 import "./navbar.css";
 
@@ -29,7 +30,7 @@ function Home() {
                                     <span className="nav-item nav-link" data-toggle="dropdown">Explore</span>
                                     <div className="dropdown-menu">
                                         <button className="dropdown-item" data-toggle="modal" data-target="#exampleModal">Criteria</button>
-                                        <Link to="/locais" className="dropdown-item">Place Of Interest</Link>
+                                        <Link to="/en_locais" className="dropdown-item">Place Of Interest</Link>
                                         <Link to="/" className="dropdown-item">Files</Link>                                        
                                         <Link to="/" className="dropdown-item">Thematic Exploration</Link>                                        
                                     </div>
@@ -53,6 +54,7 @@ function Home() {
                                     </div>
                                 </li>
                                 <li><Link to="/" className="nav-item nav-link">About the Project</Link></li>
+                                <li><Link to="/" className="nav-item nav-link"><img src={brasil} id="estados-unidos" alt="Brasil" /></Link></li>
                             </ul>
                         </div>
                     </div>

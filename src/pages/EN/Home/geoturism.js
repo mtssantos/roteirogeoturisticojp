@@ -3,7 +3,7 @@ import { Intro } from "../../../components/EN/Geoturism/intro";
 import { Historico } from "../../../components/EN/Geoturism/historic";
 import { GeoUrb } from "../../../components/EN/Geoturism/geourb";
 import { GeoBr } from "../../../components/EN/Geoturism/geobrasil";
-import { en_NavBar } from "../../../components/EN/Navbar";
+import { Navbar } from "../../../components/EN/Navbar";
 
 
 
@@ -11,7 +11,7 @@ import { en_NavBar } from "../../../components/EN/Navbar";
 function EN_Geoturism(){
     return(
         <>
-          <en_NavBar />
+          <Navbar />
           <div className="container">
             <h2>Texts about Geoturism</h2>
             <nav>

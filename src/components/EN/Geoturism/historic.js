@@ -1,0 +1,13 @@
+export function Historico(){
+    return(
+        <>
+            <p>It is incumbent upon the professor of the Faculty of Leisure and Tourism at Buckinghamshire College, Dr. Thomas Hose, to introduce, in 1995, the concept of geotourism in literature as “the provision of interpretive facilities and services that enable tourists to acquire knowledge and understanding of geology and geomorphology of a site (including its contribution to the development of Earth Sciences) beyond the level of mere aesthetic appreciation ”(HOSE, 1995, p. 17, free translation).</p>
+
+            <p>In this way, the author intended to add the abiotic environment, especially the geosites, to tourist activities, with the intention, at first, to disseminate Geosciences, in the form of geological and geomorphological structures that are important in understanding the evolution and history of And, in a second step, to economically develop the regions where they occur.</p>
+            <p>The first international conference to discuss strategies about geotourism took place in 1998, in the United Kingdom, in Belfast (HOSE, 1998). Subsequently, reflecting the growth of geotourism in the world, many other scientific meetings took place, such as global conferences, the first being in 2008, in Perth, Australia, followed in 2010, in Malaysia; 2011, in Oman; in Iceland, in 2014. The Geotourism and World Heritage Conference, in Pretoria, South Africa (2009) and the International Geotourism Congress, in its only edition in 2011, in Arouca, Portugal, are also part of this framework. Chile, in 2011, 2014 and 2017, hosted the I, II and III Symposium on Geoparks and Geotourism, promoted by its Geological Society, while Poland, in 2017, hosted the 2nd International Conference on Geopatrimony and Geotourism (the first had been in Serbia in 2010).</p>
+
+            <p>The first two publications focused exclusively on geotourism were the books “Geotourism - the Geological attractions of Italy for tourists”, written by Matteo Garofano, in 2003, which presents places of geotouristic interest in Italy and how to make good use of them (GAROFANO, 2003 ) and; “Geotourism - sustainnability impacts and management”, published by Australian geologist David Newsome, in 2006, with an edition by Ross Dowling (NEWSOME, 2006). Subsequently, several others were published, many of them of a regional nature. In 2004, the first magazine dedicated exclusively to Geotourism, ‘Geoturystyka’, was printed in Poland, followed by the Romanian ‘Geojournal of Tourism and Geosites’, dated 2008 in the English version.</p>
+        </>
+    )
+}
+
