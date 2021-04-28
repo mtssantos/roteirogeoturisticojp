@@ -1,18 +1,13 @@
-import { Link, Redirect } from "react-router-dom";
-import logo from '../../assets/Vector.svg';
-import Form from "../../components/Form";
-import ModalCriterios from "../../components/Modal";
+import { Link } from "react-router-dom";
+import logo from '../../../assets/Vector.svg';
+import Form from "../../../components/EN/Form";
+import ModalCriterios from "../../../components/EN/Modal";
 import "./index.css";
-import "./navbar.css"
+import "./navbar.css";
 
 
 function Home() {
-    let lang = localStorage.getItem('lang');
 
-    if(lang === null){
-        return <Redirect to="/lang" />
-    }
-    
    return(
         <div className="Home">
             <header className="header-area overlay">
@@ -28,7 +23,7 @@ function Home() {
                         
                         <div id="main-nav" className="collapse navbar-collapse">
                             <ul className="navbar-nav ml-auto">
-                                <li><Link to="/geoturism" className="nav-item nav-link active">Geoturismo</Link></li>
+                                <li><Link to="/en_geoturism" className="nav-item nav-link active">Geoturismo</Link></li>
                                 <li className="dropdown">
                                     <span className="nav-item nav-link" data-toggle="dropdown">Explorar</span>
                                     <div className="dropdown-menu">

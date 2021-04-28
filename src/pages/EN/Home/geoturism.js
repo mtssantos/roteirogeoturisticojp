@@ -1,17 +1,19 @@
-import Definicao from "../../components/Geoturism/definicao";
-import GeoBr from "../../components/Geoturism/geobrasil";
-import GeoUrb from "../../components/Geoturism/geourb";
-import Historico from "../../components/Geoturism/historic";
-import Intro from "../../components/Geoturism/intro";
-import NavBar from "../../components/Navbar";
+import { Definicao } from "../../../components/EN/Geoturism/definicao";
+import { Intro } from "../../../components/EN/Geoturism/intro";
+import { Historico } from "../../../components/EN/Geoturism/historic";
+import { GeoUrb } from "../../../components/EN/Geoturism/geourb";
+import { GeoBr } from "../../../components/EN/Geoturism/geobrasil";
+import { en_NavBar } from "../../../components/EN/Navbar";
 
 
-function Geoturism(){
+
+
+function EN_Geoturism(){
     return(
         <>
-          <NavBar/>
+          <en_NavBar />
           <div className="container">
-            <h2>Textos sobre Geoturismo</h2>
+            <h2>Texts about Geoturism</h2>
             <nav>
                 <div className="nav nav-tabs" id="nav-tab" role="tablist">
                     <a className="nav-link active" id="nav-intro-tab" data-toggle="tab" href="#nav-intro" role="tab" aria-controls="nav-intro" aria-selected="true">Introdução</a>
@@ -43,4 +45,4 @@ function Geoturism(){
     )
 }
 
-export default Geoturism;
+export default EN_Geoturism;

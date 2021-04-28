@@ -30,7 +30,7 @@ function Home() {
                                     <div className="dropdown-menu">
                                         <button className="dropdown-item" data-toggle="modal" data-target="#exampleModal">Critérios</button>
                                         <Link to="/locais" className="dropdown-item">Locais de Interesse</Link>
-                                        <Link to="/" className="dropdown-item">Fichas</Link>                                        
+                                        <Link to="/fichas" className="dropdown-item">Fichas</Link>                                        
                                         <Link to="/" className="dropdown-item">Exploração Temática</Link>                                        
                                     </div>
                                 </li>
