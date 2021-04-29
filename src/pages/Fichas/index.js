@@ -13,6 +13,7 @@ export function Fichas(){
             <h2>Fichas</h2>
             <div className="row row-cols-1 row-cols-md-3">
                 {documentos.map(doc => (
+                    <div className="col mb-4">
                      <div className="card cartao">
                         <img src={doc.image} className="card-img-top" alt={doc.name} />
                         <div className="card-body">
@@ -22,7 +23,8 @@ export function Fichas(){
                             <a href={doc['document-front']} rel="noreferrer" target="_blank" className="card-link">Frente</a>
                             <a href={doc['document-back']} rel="noreferrer" target="_blank" className="card-link">Verso</a>
                         </div>
-                     </div>                     
+                     </div>  
+                     </div>                   
                 ))}
             </div>
         </div>
