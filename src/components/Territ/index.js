@@ -1,4 +1,6 @@
 import "./index.css";
+import { Embasa } from "./embasamento"
+import { Bacias } from "./bacias_marginais";
 
 export function Territ(){
     return(
@@ -14,7 +16,7 @@ export function Territ(){
             </div>
 
             <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
-              <div class="card-body">
+              <div class="card-body flags">
               <div class="container" id="myGroup">
                 <p>
                   <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#geologia" aria-expanded="true" aria-controls="collapseExample">
@@ -38,7 +40,7 @@ export function Territ(){
                 </p>
                 
                 <div class="collapse" id="geologia" data-parent="#myGroup">
-                  <div class="card card-body">
+                  <div class="card card-body flags">
                   <div class="container" id="myGroup1">
                       <p>
                         <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#embasamento" aria-expanded="true" aria-controls="collapseExample">
@@ -51,13 +53,13 @@ export function Territ(){
                       
                       <div class="collapse" id="embasamento" data-parent="#myGroup1">
                         <div class="card card-body">
-                          Conteúdo do botão 1
+                          <Embasa />
                         </div>
                       </div>
                       
                       <div class="collapse" id="collapseExample2" data-parent="#myGroup1">
                         <div class="card card-body">
-                          Conteúdo do botão 2
+                          <Bacias />
                         </div>
                       </div>
                       
@@ -66,7 +68,7 @@ export function Territ(){
                 </div>
                 
                 <div class="collapse" id="geomorfologia" data-parent="#myGroup">
-                  <div class="card card-body">
+                  <div class="card card-body flags">
                     Conteúdo do botão 2
                   </div>
                 </div>
@@ -104,7 +106,7 @@ export function Territ(){
               </h2>
             </div>
             <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
-              <div class="card-body">
+              <div class="card-body flags">
                 <div class="container" id="myGroup2">
                   <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#antecedentes" aria-expanded="true" aria-controls="collapseExample">
                       Antecedentes Históricos

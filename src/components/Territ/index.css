@@ -1,3 +1,13 @@
 #myGroup > p > button{
     margin-right: 16px;
 }
+.flags{
+    background-color: white;
+}
+.paragraphy{
+    text-indent: 4em;
+    text-align: justify;
+}
+#evolucao-tab, #unidades-tab, #tectonica-tab{
+    color: black;
+}
