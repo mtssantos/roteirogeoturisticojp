@@ -1,6 +1,16 @@
 import "./index.css";
 import { Embasa } from "./embasamento"
 import { Bacias } from "./bacias_marginais";
+import { Geomorfologia } from './geomorfor';
+import { Hidrografia } from './hidrografia';
+import { Clima } from './clima';
+import { Vegetacao } from './vegetacao';
+import { Solo } from './solo';
+import { Antecedentes } from "./antecendentes";
+import { Cronistas } from "./cronistas";
+import { Iconografia } from "./iconografia";
+import { Demografia } from "./demografia";
+import { Turismo } from "./turismo";
 
 export function Territ(){
     return(
@@ -69,28 +79,28 @@ export function Territ(){
                 
                 <div class="collapse" id="geomorfologia" data-parent="#myGroup">
                   <div class="card card-body flags">
-                    Conteúdo do botão 2
+                    <Geomorfologia />
                   </div>
                 </div>
                 
                 <div class="collapse" id="hidrografia" data-parent="#myGroup">
                   <div class="card card-body">
-                    Conteúdo do botão 3
+                    <Hidrografia />
                   </div>
                 </div>
                 <div class="collapse" id="clima" data-parent="#myGroup">
                   <div class="card card-body">
-                    Conteúdo do botão 4
+                    <Clima />
                   </div>
                 </div>
                 <div class="collapse" id="vegetacao" data-parent="#myGroup">
                   <div class="card card-body">
-                    Conteúdo do botão 5
+                    <Vegetacao />
                   </div>
                 </div>
                 <div class="collapse" id="solo" data-parent="#myGroup">
                   <div class="card card-body">
-                    Conteúdo do botão 6
+                    <Solo />
                   </div>
                 </div>
               </div>
@@ -119,17 +129,17 @@ export function Territ(){
                   </button>
                   <div class="collapse" id="antecedentes" data-parent="#myGroup2">
                   <div class="card card-body">
-                    Conteúdo do botão 1
+                    <Antecedentes />
                   </div>
                   </div>
                   <div class="collapse" id="cronistas" data-parent="#myGroup2">
                   <div class="card card-body">
-                    Conteúdo do botão 2
+                    <Cronistas />
                   </div>
                   </div>
                   <div class="collapse" id="iconografia" data-parent="#myGroup2">
                   <div class="card card-body">
-                    Conteúdo do botão 3
+                    <Iconografia />
                   </div>
                   </div>
 
@@ -156,12 +166,12 @@ export function Territ(){
                   </button>
                   <div class="collapse" id="demografia" data-parent="#myGroup3">
                   <div class="card card-body">
-                    Conteúdo do botão 1
+                    <Demografia />
                   </div>
                   </div>
                   <div class="collapse" id="turismo" data-parent="#myGroup3">
                   <div class="card card-body">
-                    Conteúdo do botão 2
+                    <Turismo />
                   </div>
                   </div>
 

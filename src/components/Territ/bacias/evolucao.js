@@ -1,3 +1,10 @@
+import evolução1 from './media/evolução1.png';
+import evolucao from './media/evolucao.png';
+
+
+
+
+
 export function Evolucao(){
     return(
         <>
@@ -5,7 +12,7 @@ export function Evolucao(){
         <p class="paragraphy">A figura 1 mostra a porção nordestina de algumas bacias marginais, localizando a <b>Bacia da Paraíba</b> entre a Zona de Cisalhamento Pernambuco e a Falha de Mamanguape. Esta bacia é subdividida, de sul para norte, em sub-bacias: Olinda, Alhandra (onde se localiza nossa área de estudo) e Miriri. Faz limites: a norte, com a Plataforma de Natal da Bacia Potiguar, através do Lineamento Paraíba, que se alonga através da Falha de Mamanguape; a sul, com a Bacia de Pernambuco, através do Lineamento Pernambuco; e, a oeste, com o embasamento cristalino. Esta será a configuração que será seguida nesta tese.</p>
         <div class="text-center">
             <figure class="figure">
-                <a href="media/evolução1.png"><img src="media/evolução1.png" alt="" class="img-fluid" /></a><br /> 
+                <a href={evolução1}><img src={evolução1} alt="" class="img-fluid" /></a><br /> 
                 <figurecaption class="figure-caption">Figura 1 - Mapa de localização das bacias marginais brasileiras nordestinas, com a posição da área do projeto (em vermelho). Fonte: modificado de Barbosa e Lima Filho (2006).</figurecaption>
             </figure>
         </div>
@@ -30,15 +37,8 @@ export function Evolucao(){
         <p class="paragraphy">O modelo evolutivo tratado neste subcapítulo até ao Cretáceo Superior pode ser sumarizado na figura 2. O resultado final da configuração da bacia é um sistema tafrogênico<sup>5</sup>  formando blocos desnivelados, por meio do soerguimento ou rebaixamento do terreno, definido como “<b>tectônica de teclas</b>” (FORTES, 1986), ao longo de planos de falhas perpendiculares à linha de costa, com sentido essencialmente NE e que será analisado a seguir. O modelamento exercido pelos fatores exógenos em períodos mais atuais resultou em um conjunto de formas de relevos de espetacular beleza, que possui qualidades geoturísticas intrínsecas.</p>
         <p class="paragraphy">Este subcapítulo abarcou informações acerca da geologia regional das bacias associadas à Paraíba que, durante algum tempo, salvo raríssimas exceções, foram consideradas pertencentes a um mesmo estágio tectônico e de preenchimento sedimentar. Visou traçar um avaliação histórica e comparativa acerca das Bacias da Paraíba e de Pernambuco, até recentemente consideradas uma única bacia, através de referências bibliográficas significativas para um melhor entendimento.</p>
         <div class="text-center">
-            <figure class="figure">
-                <a href="media/evolução2.png"><img src="media/evolução2.png" alt="" class="img-fluid" /></a>
-            </figure>
-        </div>
-        <div class="text-center">
-            <figure class="figure">
-                <a href="media/evolução3.png"><img src="media/evolução3.png" alt="" class="img-fluid" /></a><br />
+                <a href={evolucao}><img src={evolucao} alt="" class="img-fluid" /></a><br />
                 <figurecaption class="figure-caption">Figura 2 - Evolução estratigráfica da Bacia da Paraíba entre o Coniaciano e o Maastrichtiano. Fonte: Souza (2006, p. 323).</figurecaption>
-            </figure>
         </div>
 		<hr />
 		<span>

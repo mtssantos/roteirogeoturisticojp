@@ -1,3 +1,8 @@
+import embasa1 from './media/embasa1.jpg'
+import embasa2 from './media/embasa2.jpg'
+
+
+
 export function Embasa(){
     return(
         <>            
@@ -7,7 +12,7 @@ export function Embasa(){
                 <p class="paragraphy">Segundo a figura 1a, o <b>Escudo Atlântico</b> aflora por toda a margem atlântica oriental do Brasil, principalmente do noroeste do Ceará até o estuário do Rio da Prata. Almeida et al. (1977) delimitaram, em sua porção nordeste (figura 1b), a <b>Província Borborema</b>, possuindo como limites geográficos, a leste-nordeste, a província Costeira; a oeste, a Bacia do Parnaíba; e a sul-sudeste, o Cráton São Francisco.</p>
                 <div class="text-center">
                     <figure class="figure">
-                        <a href="media/embasa1.jpg"><img src="media/embasa1.jpg" class="img-fluid" alt="" /></a>
+                        <a href={embasa1}><img src={embasa1} class="img-fluid" alt="" /></a>
                         <figcaption class="figure-caption">Figura 1 - Estruturas geológicas da América do Sul e do Brasil. a) Porção continental da Placa Sul-Americana, com suas diferentes áreas tectônicas, incluindo a Plataforma Sul-Americana, subdividida numa porção vulcanosedimentar (cobertura Fanerozóica) e no embasamento pré-cambriano, no qual o Escudo Atlântico (III), em sua porção nordeste, serve como base da área de estudo; b) Delimitação das províncias estruturais do Escudo Atlântico brasileiro e algumas bacias fanerozóicas. Fonte: Almeida et al. (1977, 1981) apud Delgado et al. (2003).</figcaption>
                     </figure>
                 </div>
@@ -15,7 +20,7 @@ export function Embasa(){
                 <p class="paragraphy">A figura 2 representa a Província Borborema, um mosaico de concentrações supracrustais e infracrustais, recortadas por falhas, lineamentos e zonas de cisalhamento. Esses lineamentos e falhas, reativados em eventos fanerozoicos, exerceram controle sobre os sedimentos sobrepostos, eventos esses que serão minuciosamente analisados posteriormente.</p>
                 <div class="text-center">
                     <figure class="figure">
-                        <a href="media/embasa2.jpg"><img src="media/embasa2.jpg" alt="" class="img-fluid" /></a>
+                        <a href={embasa2}><img src={embasa2} alt="" class="img-fluid" /></a>
                         <figcaption class="figure-caption">Figura 2 - Província da Borborema com suas principais estruturas e domínios tectônicos. Para a área do projeto, demarcada em vermelho, convém legendar os seguintes lineamentos: Lineamento Patos/Paraíba e Lineamento Pernambuco, que limitam a Zona Transversal, aqui denominada Orógeno mesoproterozóico Cariris Velhos e Congo-Cruzeiro do Nordeste. Fonte: Delgado et al. (2003).</figcaption>
                     </figure>
                 </div>
