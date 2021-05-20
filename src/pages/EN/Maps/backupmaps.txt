@@ -1,0 +1,31 @@
+ <div className="maps">
+            <Map center={[-7.11454, -34.88233]} zoom={15}>
+                <TileLayer
+                    attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+                    url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+                />
+                {points.map(point => (
+                            <Marker position={[point.latitude, point.longitude]} key={point.id}>
+                                <Polyline color={"#3388ff"} positions={roteiro1}>
+                                    <div className="caixa">
+                                        <Popup>
+                                            <a href="/maps/rota_1">
+                                                Roteiro 1
+                                            </a>
+                                        </Popup>
+                                    </div>
+                                </Polyline>
+                                <Polyline color={"#2e7d2d"} positions={roteiro2} />
+                                <Polyline color={"#ff6a00"} positions={roteiro3} />
+                                <Polyline color={"#f51d1d"} positions={roteiro4} />
+                                <Polyline color={"#f51d1d"} positions={roteiro5} />
+                                <Popup>
+                                    <div className="point">
+                                        <img src={point.imagem} alt="Imagem do Projeto" />
+                                    </div>
+                                    <p>{point.nome}</p>
+                                </Popup>
+                            </Marker>
+                ))}
+            </Map>
+        </div>
