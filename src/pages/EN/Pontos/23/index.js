@@ -1,10 +1,10 @@
-import NavBar from "../../../components/Navbar";
+import { Navbar } from "../../../../components/EN/Navbar";
 import milagres from './media/milagres.JPG';
 
 export function Milagres(){
     return(
         <>
-        <NavBar />
+        <Navbar />
         <div class="container text-1">
         <h2>Miracle Fountain</h2>
             <p className="text-article">On the south side of those who descend the Ladeira de São Francisco, at Rua Augusto Simões, 59, former Beco dos Milagres, it is assumed that it had great importance in the initial period of formation of the city, as it is located close to the first streets of the upper city, where a good part of the population lived, in the Ladeira do São Francisco, which connected the upper city to the lower city, on the land of the first vicar of the Mother Church. </p>

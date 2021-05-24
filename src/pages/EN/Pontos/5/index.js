@@ -1,4 +1,4 @@
-import NavBar from '../../../../components/Navbar'
+import { Navbar } from "../../../../components/EN/Navbar";
 import pedra_1 from './media/pedra_1.JPG'
 import pedra_2 from './media/pedra_2.JPG'
 import pedra_3 from './media/pedra_3.jpg';
@@ -8,7 +8,7 @@ import "../1/index.css";
 export function PracaPedra(){
     return(
 		<>
-		<NavBar />
+		<Navbar />
         <div class="container text-1">
 
             <h2>Stone Square</h2>

@@ -1,4 +1,4 @@
-import NavBar from '../../../../components/Navbar';
+import { Navbar } from "../../../../components/EN/Navbar";
 import fonte_1 from './fonte_1.png';
 import fonte_2 from './fonte_2.JPG';
 import "./index.css"
@@ -6,7 +6,7 @@ import "./index.css"
 export function FonteTambia(){
     return(
 		<>
-		<NavBar />
+		<Navbar />
         <div className="container">
 			<h2>Tambiá Fountain</h2>
 			<p className="text-article">It has been widely iconographed since the 18th century when documents and images give an account of its existence, and of its importance for the population, especially the high income, since it was located in the upper city.</p>

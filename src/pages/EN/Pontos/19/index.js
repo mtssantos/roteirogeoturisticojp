@@ -1,4 +1,4 @@
-import NavBar from "../../../../components/Navbar";
+import { Navbar } from "../../../../components/EN/Navbar";
 import sao_1 from "./media/sao_1.jpg";
 import sao_2 from "./media/sao_2.jpg";
 import sao_3 from "./media/sao_3.jpg";
@@ -9,7 +9,7 @@ import sao_6 from "./media/sao_6.JPG";
 export function SaoFrancisco(){
     return(
         <>
-        <NavBar />
+        <Navbar />
         <div class="container text-1">
                 <h2>Cultural Center San Fransciso</h2>
                 <p className="text-article">It is located at San Francisco Square, beginning of Duque de Caxias street. The Santo Antônio Church, the San Francisco Convent and the third order of San Francisco (figure 1) are part of the complex, plus the vegetable garden with the Santo Antônio fountain, which is a Place of Interest that will be broken down separately later. For being among the most beautiful representatives of national Baroque architecture, a beautiful artistic expression in the art of Portuguese stonework, in addition to the presence of heritage tiles on the walls of the churchyard and fossils on its floor, this place is justified as Geotourism Interest.</p>

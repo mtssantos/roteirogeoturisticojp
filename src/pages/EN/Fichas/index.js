@@ -1,14 +1,13 @@
-import NavBar from '../../../components/Navbar';
+import { Navbar } from '../../../components/EN/Navbar';
 import { documentos } from "./documentos";
 import "./index.css"
 
 
-export function Fichas(){
-
+export function ENFichas(){
 
     return(
         <>
-        <NavBar />
+        <Navbar />
         <div className="container">
             <h2>Files</h2>
             <div className="row row-cols-1 row-cols-md-3">

@@ -14,6 +14,9 @@ import { RouterPontos } from './PontosRouter';
 import { Territorio } from '../pages/Territorio';
 import { Fichas } from '../pages/Fichas';
 import { Ponts } from '../pages/EN/Ponts';
+import { ENRouterPontos } from './ENPontosRouter';
+import { ENFichas } from '../pages/EN/Fichas';
+import { ExplorarTematica } from '../pages/Tematica';
 
 
 export function Routes(){
@@ -33,7 +36,10 @@ export function Routes(){
             <Route path="/publi" component={Publicações} />
             <Route path="/territorio" component={Territorio} />
             <Route path="/fichas" component={Fichas} />
+            <Route path="/en_fichas" component={ENFichas} />
+            <Route path="/tematica" component={ExplorarTematica} />
             <RouterPontos />
+            <ENRouterPontos />
         </BrowserRouter>
     )
 }

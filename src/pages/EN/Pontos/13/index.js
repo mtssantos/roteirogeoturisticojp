@@ -1,10 +1,10 @@
-import NavBar from "../../../../components/Navbar";
+import { Navbar } from "../../../../components/EN/Navbar";
 import fossil_1 from "./media/fossil_1.JPG"
 
 export function Fossil(){
     return(
         <>
-        <NavBar />
+        <Navbar />
         <div class="container">
             <h2>Trench Fossil</h2>
                 <p className="text-article">It is Trench Street, nº 194. It concerns a laminated limestone floor with the presence of a fish fossil of the genus Dastilbe (dastilbe elongatus Santos), with the dimensions of 7 cm x 2 cm (Photo 1).</p>

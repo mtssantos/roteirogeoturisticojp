@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function ModalCriterios(){
     return(
         <>
@@ -9,7 +11,7 @@ function ModalCriterios(){
                 </div>
                 <div className="modal-body">
                     <p>
-                        Foram avaliados qualitativamente 25 locais de interesse geoturístico, tanto associados ao meio cultural (Patrimônio Cultural, num total de 11) quanto ao abiótico (elementos da geodiversidade - 8 e elementos geopatrimoniais -3). As fichas catalográficas de todos estes locais estão disponíveis no link ´fichas´. Os locais de interesse geoturístico associados ao meio abiótico, então, foram avaliados quantitativamente, segundo a proposta de Pereira et al (2019) e Pereira et al (2020), também disponíveis no link ´publicações´. Os roteiros geoturísticos propostos apresentam todos os locais de interesse associados ao meio cultural e aqueles associados ao meio abiótico que foram melhor rankeados na avaliação quantitativa.
+                        Foram avaliados qualitativamente 25 locais de interesse geoturístico, tanto associados ao meio cultural (Patrimônio Cultural, num total de 11) quanto ao abiótico (elementos da geodiversidade - 8 e elementos geopatrimoniais -3). As fichas catalográficas de todos estes locais estão disponíveis no link <Link to="/fichas">fichas</Link>. Os locais de interesse geoturístico associados ao meio abiótico, então, foram avaliados quantitativamente, segundo a proposta de Pereira et al (2019) e Pereira et al (2020), também disponíveis no link ´publicações´. Os roteiros geoturísticos propostos apresentam todos os locais de interesse associados ao meio cultural e aqueles associados ao meio abiótico que foram melhor rankeados na avaliação quantitativa.
                     </p>
                 </div>
                 <div className="modal-footer">

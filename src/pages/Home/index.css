@@ -74,7 +74,10 @@
 .logo{
     width: 60%;
 }
-
+.mapa{
+  width: 100%;
+  height: 655px;
+}
 .blocos{
     display: flex;
 }

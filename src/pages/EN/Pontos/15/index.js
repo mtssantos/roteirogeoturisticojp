@@ -1,4 +1,4 @@
-import NavBar from "../../../../components/Navbar";
+import { Navbar } from "../../../../components/EN/Navbar";
 import misericordia_1 from "./media/misericordia_1.jpg"
 import misericordia_2 from "./media/misericordia_2.JPG"
 import misericordia_3 from "./media/misericordia_3.JPG"
@@ -7,7 +7,7 @@ import misericordia_3 from "./media/misericordia_3.JPG"
 export function Misericordia(){
     return(
         <>
-        <NavBar />
+        <Navbar />
         <div class="container">
         <h2>Holy House Of Mercy</h2>
 		<p className="text-article">Located in one of the oldest streets in João Pessoa, Direita Street, now Duque de Caxias Street, in the central portion of the upper city, with the main facade facing Peregrino de Carvalho Street, former Beco da Misericórdia, represents the place of residence of rural aristocracy and seat of religious power, since its central role in administration was emphasized by its location.</p>

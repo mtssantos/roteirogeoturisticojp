@@ -1,4 +1,4 @@
-import NavBar from "../../../../components/Navbar";
+import { Navbar } from "../../../../components/EN/Navbar";
 import dolina_1 from "./media/dolina_1.png";
 import dolina_2 from "./media/dolina_2.png";
 import "../1/index.css";
@@ -6,7 +6,7 @@ import "../1/index.css";
 export function Dolina(){
     return(
         <>
-            <NavBar />
+            <Navbar />
             <div class="container">
             <h2>Dolina dos Irerês</h2>
 		<p className="text-article">The Dolina dos Irerês is one of the main postcards of the city. It is located in the heart of the Historic Center, being a point of convergence of streets and avenues that radiate to all regions of the city. Since the 17th century it has appeared in practically all the capital's iconography, especially that of Dutch origin. There, the so-called Sítio da Lagoa, owned by the Jesuits, was later called Irerês Lagoon, due to a very common mallard that swam in its waters. Only in the early 1920s did the area pass into the hands of the state.</p>

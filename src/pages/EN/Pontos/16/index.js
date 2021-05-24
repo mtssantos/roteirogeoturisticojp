@@ -1,4 +1,4 @@
-import NavBar from '../../../../components/Navbar'
+import { Navbar } from "../../../../components/EN/Navbar";
 import { Erario } from './divisions/erario';
 import { Geral } from './divisions/geral';
 import { Correios } from './divisions/correios';
@@ -6,7 +6,7 @@ import { Correios } from './divisions/correios';
 export function PracaRioBranco(){
     return(
         <>
-        <NavBar />
+        <Navbar />
         <div className="container text-1">
             <h2>White River Square</h2>
             <nav>

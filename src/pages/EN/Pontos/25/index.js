@@ -1,11 +1,11 @@
-import NavBar from "../../../../components/Navbar";
+import { Navbar } from "../../../../components/EN/Navbar";
 import casa_1 from "./media/casa_1.JPG";
 import casa_2 from "./media/casa_2.JPG";
 
 export function CasaRosa(){
     return(
         <>
-        <NavBar />
+        <Navbar />
         <div class="container text-1">
             <h2>Rose Quartz House</h2>
                 <p className="text-article">The Place of Interest is located outside the perimeter of the Historic Center, on the corner of Avenues Maximiano de Figueiredo and Camilo de Holanda, in the center, about 500 meters from Praça da Independência. </p>

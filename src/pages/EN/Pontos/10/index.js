@@ -1,4 +1,4 @@
-import NavBar from "../../../../components/Navbar";
+import { Navbar } from "../../../../components/EN/Navbar";
 import beberibe_1 from './media/beberibe_1.JPG';
 import beberibe_2 from './media/beberibe_2.JPG';
 import "../1/index.css";
@@ -7,7 +7,7 @@ import "../1/index.css";
 export function Beberibe(){
     return(
         <>
-            <NavBar />
+            <Navbar />
             <div className="container">
                 <h2>Outcrop Of Beberibe Formation</h2>
                     <p className="text-article">This outcrop is located on a secondary road with a steep slope, without paving, in the Bairro do Distrito Industrial, outside the Historic Center, about 350 meters from a subdivision under construction, with paved streets. The rocks of the formation were exposed by rainwater runoff, which formed grooves on the sides of the road and the area belongs to the Horst Tabuleiro das Lagoas.</p>

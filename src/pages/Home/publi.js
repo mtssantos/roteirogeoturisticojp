@@ -1,4 +1,5 @@
 import NavBar from "../../components/Navbar";
+import { Geoturismpubli } from "../../components/Publi/geoturismo";
 
 export function Publicações(){
     return(
@@ -16,6 +17,7 @@ export function Publicações(){
                 </nav>
                 <div className="tab-content" id="nav-tabContent">
                 <div className="tab-pane fade show active" id="nav-geoconser" role="tabpanel" aria-labelledby="nav-geoconser-tab">
+                    <Geoturismpubli />
                 </div>
                 <div className="tab-pane fade" id="nav-geopatri" role="tabpanel" aria-labelledby="nav-geopatri-tab">
                 </div>

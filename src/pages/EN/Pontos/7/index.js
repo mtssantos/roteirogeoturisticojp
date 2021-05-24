@@ -1,4 +1,4 @@
-import NavBar from "../../../../components/Navbar";
+import { Navbar } from "../../../../components/EN/Navbar";
 import gramame_1 from './media/gramame_1.jpg';
 import gramame_2 from './media/gramame_2.jpg';
 import gramame_3 from './media/gramame_3.JPG';
@@ -17,7 +17,7 @@ import "../1/index.css";
 export function Gramame(){
     return(
         <>
-        <NavBar />
+        <Navbar />
         <div class="container">
         <h2>Outcrop Of Gramame Formation</h2>
 			<p className="text-article">EThis Place of Interest corresponds to an outcrop of the <b> Gramame Formation </b> limestone (Maastrichtiano) in the area of ​​the Intercement cement plant, former CIMPOR plant. In addition to its geological importance, the Engenho da Graça is present inside the factory, with the Capela da Graça, in addition to a marked biodiversity. It was also in its limits where, at the time of the city's founding, the village of the Guiragibe Indian, who had been catechized by the Jesuits, would have settled.</p>

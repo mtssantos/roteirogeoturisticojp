@@ -1,4 +1,4 @@
-import NavBar from "../../../../components/Navbar";
+import { Navbar } from "../../../../components/EN/Navbar";
 import bala_1 from "./media/bala_1.JPG";
 import bala_2 from "./media/bala_2.jpg";
 import "../1/index.css";
@@ -7,7 +7,7 @@ import "../1/index.css";
 export function Balaustrada(){
     return(
         <>
-        <NavBar />
+        <Navbar />
         <div className="container">
             <h2>Trench Balustrade</h2>
                     <p className="text-article">This Place of Interest was selected for its cultural and natural heritage elements, mainly the panoramic view of a valley, in this case a drainage amphitheater, an abyss, in which the construction of the aforementioned 'balustrade', at the beginning of the century XX, aimed at protecting passers-by on Avenida João da Mata (photo 1). Thus, this place, with an altitude of 44 meters, has a privileged view of this form of relief. In addition, at the rear of the balustrade, several buildings dating from the early 20th century in eclectic and art nouveau style, increase the cultural importance of the Place of Interest, with the entire architectural ensemble being listed by IPHAEP in 1980, through decree No. 8627, in addition to of a bust in honor of Camilo de Holanda.</p>

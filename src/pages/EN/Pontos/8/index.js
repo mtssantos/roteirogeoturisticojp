@@ -1,4 +1,4 @@
-import NavBar from '../../../../components/Navbar';
+import { Navbar } from "../../../../components/EN/Navbar";
 import cacimba_1 from './media/cacimba_1.JPG';
 import cacimba_2 from './media/cacimba_2.png';
 import "../1/index.css";
@@ -7,7 +7,7 @@ import "../1/index.css";
 export function Cacimba(){
     return(
         <>
-        <NavBar />
+        <Navbar />
             <div className="container">
                 <h2>People's Cacimba</h2>
                 <p className="text-article">It is located in the current Bairro das Trincheiras, inside a site in the Mechanical District, about 50 meters from the main access road, Rua Rodrigues Chaves. Rodriguez (1962) emphasizes its importance as a source of supply for the population of the southern region, highlighting the year 1857 as the year of its construction, having, since then, a reference in several historical documents of the 19th and early 20th centuries. With the plumbing of the water, in the middle of 1950, it was losing importance, until its (almost) total oblivion.</p>
