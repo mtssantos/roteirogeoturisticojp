@@ -8,7 +8,7 @@ import rota_3 from '../../assets/rota_3.png'
 import rota_4 from '../../assets/rota_4.png'
 
 
-export function Rota_3(){
+function Rota_3(){
     
     const roteiro1 = [
         [-7.11459, -34.87739],
@@ -151,3 +151,5 @@ export function Rota_3(){
         </>
     )
 }
+
+export default Rota_3

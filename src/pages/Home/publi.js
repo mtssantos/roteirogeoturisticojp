@@ -1,7 +1,7 @@
 import NavBar from "../../components/Navbar";
 import { Geoturismpubli } from "../../components/Publi/geoturismo";
 
-export function Publicações(){
+function Publicações(){
     return(
         <>
             <NavBar />
@@ -31,3 +31,5 @@ export function Publicações(){
         </>
     )
 }
+
+export default Publicações

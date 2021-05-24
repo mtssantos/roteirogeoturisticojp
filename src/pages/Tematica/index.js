@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import NavBar from "../../components/Navbar"
 import "./index.css";
 
-export function ExplorarTematica(){
+function ExplorarTematica(){
     return(
         <>
             <NavBar />
@@ -127,3 +127,5 @@ export function ExplorarTematica(){
         </>
     )
 }
+
+export default ExplorarTematica

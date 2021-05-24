@@ -3,7 +3,7 @@ import { documentos } from "./documentos";
 import "./index.css"
 
 
-export function ENFichas(){
+function ENFichas(){
 
     return(
         <>
@@ -30,3 +30,5 @@ export function ENFichas(){
         </>
     )
 }
+
+export default ENFichas

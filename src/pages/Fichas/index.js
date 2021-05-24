@@ -3,9 +3,7 @@ import { documentos } from "./documentos";
 import "./index.css"
 
 
-export function Fichas(){
-
-
+function Fichas(){
     return(
         <>
         <NavBar />
@@ -31,3 +29,5 @@ export function Fichas(){
         </>
     )
 }
+
+export default Fichas

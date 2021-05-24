@@ -26,7 +26,7 @@ import { Cacimba } from '../pages/EN/Pontos/8';
 import { Balaustrada } from '../pages/EN/Pontos/9';
 
 
-export function ENRouterPontos(){
+function ENRouterPontos(){
     return(
         <>
         <Route path="/local/en/1" component={FonteTambia} />
@@ -57,3 +57,5 @@ export function ENRouterPontos(){
         </>
     )
 }
+
+export default ENRouterPontos
