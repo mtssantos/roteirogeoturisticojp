@@ -1,6 +1,7 @@
-
-export function Geoturismpubli(){
+function Geoturismpubli(){
     return(
-        <p>EWU sei lá</p>
+        <div />
     )
 }
+
+export default Geoturismpubli

@@ -1,5 +1,5 @@
 import NavBar from "../../components/Navbar";
-import { Geoturismpubli } from "../../components/Publi/geoturismo";
+import Geoturismpubli from "../../components/Publi/geoturismo";
 
 function Publicações(){
     return(
