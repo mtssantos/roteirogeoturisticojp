@@ -8,7 +8,6 @@ import estadosunidos from "../../assets/estadosunidos.webp";
 
 
 function Home() {
-
    return(
         <div className="Home">
             <header className="header-area overlay">

@@ -4,7 +4,7 @@ import "./index.css";
 function Locais(){
     return(
         <div className="container">
-        <h2>Locais de Interesse</h2><br />
+        <h2 className="font-weight-bold">Locais de Interesse</h2><br />
         <br />
           <div className="card-deck">
           <div className="card">
