@@ -8,15 +8,15 @@ export function Iconografia(){
     return(
         <>
             <h3>Anexos</h3>
-            <p class="paragraphy">No primeiro card abaixo remete ao artigo “Geodiversity of Parahyba in the colonial period (Pereira e Pereira, 2017)”, cujo objetivo é apresentar a percepção dos vários escritores presentes na Capitania da Parahyba, durante o período colonial, sobre os elementos da geodiversidade primordiais para a consolidação e expansão urbana de sua capital, Nossa Senhora das Neves. </p>
-            <p class="paragraphy">No segundo card abaixo remete ao artigo “A paisagem cultural da Capitania da Parahyba, Brasil, na otica da iconografia do período colonial (Pereira, 2017)”, cujo objetivo é e apresentar a percepção que viajantes que estiveram na Capitania da Parahyba possuíam acerca do ambiente físico, representado em iconografias, que foi primordial para a consolidação e expansão urbana da capital, resultando em sua paisagem cultural.</p>
-                <div class="card-group">
+            <p className="paragraphy">No primeiro card abaixo remete ao artigo “Geodiversity of Parahyba in the colonial period (Pereira e Pereira, 2017)”, cujo objetivo é apresentar a percepção dos vários escritores presentes na Capitania da Parahyba, durante o período colonial, sobre os elementos da geodiversidade primordiais para a consolidação e expansão urbana de sua capital, Nossa Senhora das Neves. </p>
+            <p className="paragraphy">No segundo card abaixo remete ao artigo “A paisagem cultural da Capitania da Parahyba, Brasil, na otica da iconografia do período colonial (Pereira, 2017)”, cujo objetivo é e apresentar a percepção que viajantes que estiveram na Capitania da Parahyba possuíam acerca do ambiente físico, representado em iconografias, que foi primordial para a consolidação e expansão urbana da capital, resultando em sua paisagem cultural.</p>
+                <div className="card-group">
                      <div className="card cartao">
                         <img src={imagepdf1} className="card-img-top" alt="" />
                         <div className="card-body">
                             <h5 className="card-title">Geodiversity of Parahyba in the colonial period (Pereira e Pereira, 2017)</h5>
                         </div>
-                        <div class="card-body">
+                        <div className="card-body">
                             <a href={artigo_mercator} rel="noreferrer" download={artigo_mercator} target="_blank" className="card-link">Baixar Arquivo</a>
                         </div>
                      </div>  
@@ -25,7 +25,7 @@ export function Iconografia(){
                         <div className="card-body">
                             <h5 className="card-title">A paisagem cultural da Capitania da Parahyba, Brasil, na otica da iconografia do período colonial (Pereira, 2017)</h5>
                         </div>
-                        <div class="card-body">
+                        <div className="card-body">
                             <a href={artigo_passos} rel="noreferrer" download={artigo_passos} target="_blank" className="card-link">Baixar Arquivo</a>
                         </div>
                      </div>  
