@@ -2,7 +2,7 @@ import { Evolucao } from "./bacias/evolucao";
 import { Tectonica } from "./bacias/tectonica";
 import { Unidades } from "./bacias/unidades";
 
-export function Bacias(){
+function Bacias(){
     return(
         <>
         <ul className="nav nav-tabs" id="myTab" role="tablist">
@@ -30,3 +30,5 @@ export function Bacias(){
         </>
     )
 }
+
+export default Bacias

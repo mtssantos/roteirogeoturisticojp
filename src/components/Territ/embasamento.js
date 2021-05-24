@@ -3,7 +3,7 @@ import embasa2 from './media/embasa2.jpg'
 
 
 
-export function Embasa(){
+function Embasa(){
     return(
         <>            
                 <p className="paragraphy">A área estudada se enquadra em um contexto geológico de uma bacia sedimentar marginal – a Bacia da Paraíba, que iniciou seu processo de preenchimento há cerca de 110 milhões de anos (Ma, Cretácico), sobre um embasamento, com inúmeras estruturas tectônicas, a exemplo de falhas, lineamentos/zonas de cisalhamento, entre outras, que foram várias vezes reativadas em sua história geológica.</p>
@@ -36,3 +36,5 @@ export function Embasa(){
         </>
     )
 }
+
+export default Embasa

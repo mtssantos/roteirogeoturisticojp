@@ -2,7 +2,7 @@ import { Introduçãohidro } from "./hidrografia/introducao";
 import { Neotectonica } from "./hidrografia/neotectonica";
 import { Aguadoce } from "./hidrografia/fontesaguadoce";
 
-export function Hidrografia(){
+function Hidrografia(){
     return(
         <>
        <nav>
@@ -26,3 +26,5 @@ export function Hidrografia(){
         </>
     )
 }
+
+export default Hidrografia

@@ -11,7 +11,7 @@ import acordo from '../../assets/acordo.jpg';
 import tabela_cidade from '../../assets/tabela-cidade.jpg';
 
 
-export function Antecedentes(){
+function Antecedentes(){
     return(
        <>
         <p className="paragraphy">Vários relatos da época apontam a importância estratégica e natural das capitanias do norte no processo de colonização,<sup>1</sup> , assim como ressaltam as qualidades do meio natural para tal.. A proximidade da Europa, matas abundantes em pau Brasil, solo favorável à cultura de cana de açúcar, rios largos e com bom calado eram algum dos requisitos que a região possuía e que fazia com que os olhos da Coroa se voltassem para lá.</p>
@@ -132,3 +132,5 @@ export function Antecedentes(){
        </>
     )
 }
+
+export default Antecedentes;

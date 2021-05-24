@@ -1,4 +1,4 @@
-export function Cronistas(){
+function Cronistas(){
     return(
         <>
         <h3>A Paisagem Cultural de João Pessoa e a geodiversidade na perspectiva dos cronistas e iconografistas do Período Colonial</h3>
@@ -13,3 +13,5 @@ export function Cronistas(){
         </>
     )
 }
+
+export default Cronistas

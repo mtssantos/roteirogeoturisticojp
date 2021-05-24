@@ -1,7 +1,7 @@
 import { Introclima } from './clima/introclima';
 import { Elementosclimaticos } from './clima/elementos';
 
-export function Clima(){
+function Clima(){
     return(
         <>
             <nav>
@@ -21,3 +21,5 @@ export function Clima(){
         </>
     )
 }
+
+export default Clima;

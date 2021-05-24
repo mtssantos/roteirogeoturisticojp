@@ -2,7 +2,7 @@ import turismo1 from './media/turismo1.png';
 
 
 
-export function Turismo(){
+function Turismo(){
     return(
         <>
         <h5>Uma visão geral</h5>
@@ -39,3 +39,5 @@ export function Turismo(){
         </>
     )
 }
+
+export default Turismo

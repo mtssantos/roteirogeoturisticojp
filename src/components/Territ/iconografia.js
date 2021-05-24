@@ -4,7 +4,7 @@ import artigo_mercator from '../../documents/artigo_mercator_luciano_schaefer.pd
 import artigo_passos from '../../documents/artigo_passos_luciano_schaefer.pdf';
 
 
-export function Iconografia(){
+function Iconografia(){
     return(
         <>
             <h3>Anexos</h3>
@@ -33,3 +33,5 @@ export function Iconografia(){
         </>
     )
 }
+
+export default Iconografia

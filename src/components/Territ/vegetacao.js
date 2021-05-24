@@ -1,4 +1,4 @@
-export function Vegetacao(){
+function Vegetacao(){
     return(
         <>
         <p className="paragraphy">Não podemos dissociar as <b>formações vegetais</b> dos <b>elementos abióticos</b> da área, visto que o somatório do clima, relevo, hidrografia e solo foram primordiais para criar o mosaico paisagístico extremamente biodiverso, na América do Sul (MEDEIROS, 2009). Associando-se a estes aspectos, aparece a figura do ser humano, como elemento desagregador e modificador da natureza, responsável pela destruição e, em alguns casos, praticamente pela extinção, de parte desta flora, principalmente a partir do século XVI.</p>
@@ -25,3 +25,5 @@ export function Vegetacao(){
         </>
     )
 }
+
+export default Vegetacao;

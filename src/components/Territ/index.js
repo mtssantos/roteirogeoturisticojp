@@ -1,16 +1,16 @@
 import "./index.css";
-import { Embasa } from "./embasamento"
-import { Bacias } from "./bacias_marginais";
-import { Geomorfologia } from './geomorfor';
-import { Hidrografia } from './hidrografia';
-import { Clima } from './clima';
-import { Vegetacao } from './vegetacao';
-import { Solo } from './solo';
-import { Antecedentes } from "./antecendentes";
-import { Cronistas } from "./cronistas";
-import { Iconografia } from "./iconografia";
-import { Demografia } from "./demografia";
-import { Turismo } from "./turismo";
+import Embasa  from "./embasamento"
+import Bacias  from "./bacias_marginais";
+import Geomorfologia from './geomorfor';
+import Hidrografia from './hidrografia';
+import Clima  from './clima';
+import Vegetacao  from './vegetacao';
+import Solo  from './solo';
+import Antecedentes from "./antecendentes";
+import Cronistas  from "./cronistas";
+import Iconografia from "./iconografia";
+import Demografia  from "./demografia";
+import Turismo from "./turismo";
 
 export function Territ(){
     return(

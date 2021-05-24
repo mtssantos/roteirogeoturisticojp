@@ -1,7 +1,7 @@
 import demografia_grafico from './media/demografia_grafico1.png'
 
 
-export function Demografia(){
+function Demografia(){
     return(
         <>
             <h5>Introdução</h5>
@@ -37,3 +37,5 @@ export function Demografia(){
         </>
     )
 }
+
+export default Demografia

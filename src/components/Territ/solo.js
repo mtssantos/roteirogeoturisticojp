@@ -1,6 +1,6 @@
 import solo from './media/solo.jpg'
 
-export function Solo(){
+function Solo(){
     return(
         <>
         <p className="paragraphy">A atuação e a inter-relação entre os agentes exógenos, que esculpiram e modelaram as estruturas rochosas, geraram, por meio do intemperismo, especificamente do intemperismo químico, características específicas de solos. A <b>pedogênese</b>, assim como a participação dos efeitos do clima, tem relação direta com a cobertura vegetal, e pode ser potencializada pela ação antrópica. Assim sendo, por estarem inseridos no geopatrimônio da área, é pertinente sua classNameificação e caracterização.</p>
@@ -28,3 +28,5 @@ export function Solo(){
         </>
     )
 }
+
+export default Solo

@@ -1,7 +1,7 @@
 import { Dominios } from './geomorfor/dominios'
 import { Mapeamento } from './geomorfor/mapeamento'
 
-export function Geomorfologia(){
+function Geomorfologia(){
     return(
         <>
            <nav>
@@ -21,3 +21,6 @@ export function Geomorfologia(){
         </>
     )
 }
+
+
+export default Geomorfologia
