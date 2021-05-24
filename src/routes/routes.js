@@ -17,6 +17,7 @@ import Ponts from '../pages/EN/Ponts';
 import ENRouterPontos from './ENPontosRouter';
 import ENFichas  from '../pages/EN/Fichas';
 import ExplorarTematica from '../pages/Tematica';
+import About from '../pages/About';
 
 
 export function Routes(){
@@ -38,6 +39,7 @@ export function Routes(){
             <Route path="/fichas" component={Fichas} />
             <Route path="/en_fichas" component={ENFichas} />
             <Route path="/tematica" component={ExplorarTematica} />
+            <Route path="/about" component={About} />
             <RouterPontos />
             <ENRouterPontos />
         </BrowserRouter>

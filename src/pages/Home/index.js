@@ -37,7 +37,7 @@ function Home() {
                                     <Link to="/territorio" className="nav-item nav-link" data-toggle="dropdown">Nosso Território</Link>
                                 </li>
                                 <li><Link className="nav-item nav-link" to="/publi">Publicações</Link></li>
-                                <li><Link to="/" className="nav-item nav-link">Sobre o projeto</Link></li>
+                                <li><Link to="/about" className="nav-item nav-link">Sobre o projeto</Link></li>
                                 <li><Link to="/en" className="nav-item nav-link"><img src={estadosunidos} id="estados-unidos" alt="Estados Unidos" /></Link></li>
                             </ul>
                     </div>
