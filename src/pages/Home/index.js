@@ -4,7 +4,7 @@ import Form from "../../components/Form";
 import ModalCriterios from "../../components/Modal";
 import "./index.css";
 import "./navbar.css"
-import estadosunidos from "../../assets/estadosunidos.png";
+import estadosunidos from "../../assets/estadosunidos.webp";
 
 
 function Home() {

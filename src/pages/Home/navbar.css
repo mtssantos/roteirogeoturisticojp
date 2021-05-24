@@ -84,7 +84,7 @@ p {
   position: relative;
   height: 100%;
   color: #fff;
-  background: url('../../assets/image_1.jpg');
+  background: url('../../assets/image_1.webp');
   text-align: center;
   z-index: 1;
 }
