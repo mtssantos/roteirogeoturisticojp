@@ -140,7 +140,7 @@ function Rota_1(){
                                         <img src={roteiros.imagem} alt="Imagem do Projeto" />
                                     </div>
                                     <div id="e-link">
-                                        <Link to={roteiros.link}>{roteiros.nome}</Link>
+                                        <Link target="_blank" to={roteiros.link}>{roteiros.nome}</Link>
                                     </div>
                             </Popup>
                     </Marker>
