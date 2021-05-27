@@ -1,16 +1,16 @@
-import NavBar from "../../components/Navbar";
-import logo from '../../assets/Vector.svg';
-import "./index.css";
-import tese_luciano from "../../documents/tese_luciano.pdf";
-import anexos_luciano from "../../documents/anexos_luciano.pdf";
+import logo from '../../../assets/Vector.svg';
+import "../../About/index.css";
+import tese_luciano from "../../../documents/tese_luciano.pdf";
+import anexos_luciano from "../../../documents/anexos_luciano.pdf";
+import { Navbar } from '../../../components/EN/Navbar';
 
 
 
-function About(){
+function ENAbout(){
     document.title = "Sobre o Projeto"
     return(
         <>
-            <NavBar />
+            <Navbar />
             <div className="container about">
                 <img src={logo} className="logo-about" alt="logo" />
                 <h3>Roterio Geoturístico do Centro Histórico de João Pessoa</h3>
@@ -25,4 +25,4 @@ function About(){
 }
 
 
-export default About;
+export default ENAbout;

@@ -3,6 +3,7 @@ import NavBar from "../../components/Navbar"
 import "./index.css";
 
 function ExplorarTematica(){
+    document.title = "Exploração Temática"
     return(
         <>
             <NavBar />

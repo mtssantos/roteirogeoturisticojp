@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import "./index.css";
 
 function Locais(){
+  document.title = "Locais de Interesse"
     return(
         <div className="container">
         <h2 className="font-weight-bold">Locais de Interesse</h2><br />

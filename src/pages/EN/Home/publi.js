@@ -1,11 +1,10 @@
-import NavBar from "../../components/Navbar";
-import Geoturismpubli from "../../components/Publi/geoturismo";
+import { Navbar } from "../../../components/EN/Navbar"
 
-function Publicações(){
+function ENPublicações(){
     document.title = "Publicações"
     return(
         <>
-            <NavBar />
+            <Navbar />
             <div className="container">
             <h2 className="font-weight-bold">Publicações</h2>
             <nav>
@@ -18,7 +17,6 @@ function Publicações(){
                 </nav>
                 <div className="tab-content" id="nav-tabContent">
                 <div className="tab-pane fade show active" id="nav-geoconser" role="tabpanel" aria-labelledby="nav-geoconser-tab">
-                    <Geoturismpubli />
                 </div>
                 <div className="tab-pane fade" id="nav-geopatri" role="tabpanel" aria-labelledby="nav-geopatri-tab">
                 </div>
@@ -33,4 +31,4 @@ function Publicações(){
     )
 }
 
-export default Publicações
+export default ENPublicações

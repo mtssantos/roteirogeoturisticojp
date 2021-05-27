@@ -4,6 +4,7 @@ import "./index.css"
 
 
 function Fichas(){
+    document.title = "Fichas"
     return(
         <>
         <NavBar />

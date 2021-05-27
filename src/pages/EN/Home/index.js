@@ -9,12 +9,13 @@ import "./navbar.css";
 
 function Home() {
 
+    document.title = "Geotourism Tour Of Historic Center Of João Pessoa"
    return(
         <div className="Home">
             <header className="header-area overlay">
                 <nav className="navbar navbar-expand-md navbar-dark">
                     <div className="container">
-                        <Link to="/" className="navbar-brand"><img src={logo} alt="Logo" className="logo"/></Link>
+                        <Link to="/en" className="navbar-brand"><img src={logo} alt="Logo" className="logo"/></Link>
     
                         <button type="button" className="navbar-toggler collapsed" data-toggle="collapse" data-target="#main-nav">
                             <span className="material-icons">
@@ -35,25 +36,13 @@ function Home() {
                                         <Link to="/" className="dropdown-item">Thematic Exploration</Link>                                        
                                     </div>
                                 </li>
-                                <li className="dropdown">
-                                    <span className="nav-item nav-link" data-toggle="dropdown">Our Territory</span>
-                                    <div className="dropdown-menu">
-                                        <Link to="/" className="dropdown-item">Dropdown Item 1</Link>
-                                        <Link to="/" className="dropdown-item">Dropdown Item 2</Link>
-                                        <Link to="/" className="dropdown-item">Dropdown Item 3</Link>
-                                    </div>
+                                <li>
+                                    <Link to="/en_territorio" className=" nav-item nav-link">Our Territory</Link>
                                 </li>
-                                <li className="dropdown">
-                                    <span className="nav-item nav-link" data-toggle="dropdown">Publishing</span>
-                                    <div className="dropdown-menu">
-                                        <Link to="/" className="dropdown-item">Dropdown Item 1</Link>
-                                        <Link to="/" className="dropdown-item">Dropdown Item 2</Link>
-                                        <Link to="/" className="dropdown-item">Dropdown Item 3</Link>
-                                        <Link to="/" className="dropdown-item">Dropdown Item 4</Link>
-                                        <Link to="/" className="dropdown-item">Dropdown Item 5</Link>
-                                    </div>
+                                <li>
+                                    <Link to="/en_publi" className="nav-item nav-link">Publishing</Link>
                                 </li>
-                                <li><Link to="/" className="nav-item nav-link">About the Project</Link></li>
+                                <li><Link to="/en_about" className="nav-item nav-link">About the Project</Link></li>
                                 <li><Link to="/" className="nav-item nav-link"><img src={brasil} id="estados-unidos" alt="Brasil" /></Link></li>
                             </ul>
                         </div>
@@ -73,25 +62,30 @@ function Home() {
                     <div className="bloco-1">
                         <h2>Places Of Interest</h2>
                         <p>Capital of the State of Paraíba, João Pessoa has one of the oldest historic centers in the country, full of churches, monuments, historic squares, obelisks and fountains.</p>
-                        <Link to="/maps">
-                            <strong>Visit</strong>
+                        <Link to="/en_locais">
+                            <strong>View Locations</strong>
                         </Link>
                     </div>
                     <div className="bloco-2">
                         <h2>About The Historic Center</h2>
                         <p>Capital of the State of Paraíba, João Pessoa has one of the oldest historic centers in the country, full of churches, monuments, historic squares, obelisks and fountains.</p>
-                        <Link to="/en">
-                            <strong>Visit</strong>
+                        <Link to="/en_territorio">
+                            <strong>Understand History</strong>
                         </Link>
                     </div>
                     <div className="bloco-3">
                         <h2>How to get here</h2>
                         <p>Located at the eastern end of the Americas, João Pessoa is easily accessed through Castro Pinto Airport, 10 km away and by Severino Camelo Bus Terminal, in the center of João Pessoa.</p>
-                        <Link to="/en">
-                            <strong>Visit</strong>
-                        </Link>
+                        <a href="https://goo.gl/maps/r4PNsZh2eKHrAR7BA" className="font-weight-bold" target="_blank" rel="noreferrer">See airport location</a><br />
+                        <a href="https://goo.gl/maps/USiGHGANcff9e1Fe9" className="font-weight-bold" target="_blank" rel="noreferrer">See bus station location</a>
                     </div>
                 </div>
+            </div>
+            <div className="container">
+                <h2 className="text-center font-weight-bold">Our Map</h2>            
+                <iframe src="/en_maps" title="mapa" className="mapa"></iframe>
+                <br /> 
+                <br /> 
             </div>
                 <div className="container">
                 <div className="bottom-footer">

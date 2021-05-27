@@ -9,11 +9,13 @@ import { Navbar } from "../../../components/EN/Navbar";
 
 
 function EN_Geoturism(){
+
+    document.title = "Texts about Geoturism"
     return(
         <>
           <Navbar />
           <div className="container">
-            <h2>Texts about Geoturism</h2>
+            <h2 className="font-weight-bold">Texts about Geoturism</h2>
             <nav>
                 <div className="nav nav-tabs" id="nav-tab" role="tablist">
                     <a className="nav-link active" id="nav-intro-tab" data-toggle="tab" href="#nav-intro" role="tab" aria-controls="nav-intro" aria-selected="true">Introduction</a>

@@ -2,6 +2,7 @@ import NavBar from "../../components/Navbar";
 import { Territ } from "../../components/Territ"
 
 function Territorio(){
+    document.title = "Nosso Território"
     return(
         <>
             <NavBar />

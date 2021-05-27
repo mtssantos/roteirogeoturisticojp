@@ -7,6 +7,7 @@ import NavBar from "../../components/Navbar";
 
 
 function Geoturism(){
+    document.title = "Geoturismo"
     return(
         <>
           <NavBar/>

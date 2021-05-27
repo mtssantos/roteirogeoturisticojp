@@ -2,9 +2,10 @@ import { Link } from "react-router-dom";
 import "./index.css";
 
 export function GeoPonts(){
+  document.title = "Places of Interest"
     return(
         <div className="container">
-        <h2>Places of Interest</h2><br />
+        <h2 className="font-weight-bold">Places of Interest</h2><br />
         <br />
           <div className="card-deck">
           <div className="card">

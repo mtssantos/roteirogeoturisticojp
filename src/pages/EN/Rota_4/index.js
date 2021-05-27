@@ -1,14 +1,14 @@
 import { Map, TileLayer, Marker, Popup, Polyline } from 'react-leaflet';
 import { Link } from 'react-router-dom';
 import "../Rota_1/maps.css";
-import { roteiro_4 } from '../../Maps/arq';
+import { roteiro_4 } from '../Maps/arq';
 import rota_1 from '../../../assets/rota_1.png'
 import rota_2 from '../../../assets/rota_2.png'
 import rota_3 from '../../../assets/rota_3.png'
 import rota_4 from '../../../assets/rota_4.png' 
 
 
-export function Rota_4(){
+export function ENRota_4(){
     
     const roteiro1 = [
         [-7.11459, -34.87739],
@@ -78,7 +78,7 @@ export function Rota_4(){
                         <div id="point">
                             <img src={rota_1} alt="Imagem do Projeto" />
                         </div>
-                            <Link to="/rota_1">
+                            <Link to="/enrota_1">
                                 <div>
                                    Guide 1
                                 </div>
@@ -90,7 +90,7 @@ export function Rota_4(){
                     <div id="point">
                             <img src={rota_2} alt="Imagem do Projeto" />
                         </div>
-                            <Link to="/rota_2">
+                            <Link to="/enrota_2">
                                 <div>
                                     Guide 2
                                 </div>
@@ -102,7 +102,7 @@ export function Rota_4(){
                     <div id="point">
                             <img src={rota_3} alt="Imagem do Projeto" />
                         </div>
-                            <Link to="/rota_3">
+                            <Link to="/enrota_3">
                                 <div>
                                     Guide 3
                                 </div>
@@ -114,7 +114,7 @@ export function Rota_4(){
                     <div id="point">
                             <img src={rota_4} alt="Imagem do Projeto" />
                         </div>
-                            <Link to="/rota_4">
+                            <Link to="/enrota_4">
                                 <div>
                                     Guide 4
                                 </div>
@@ -126,7 +126,7 @@ export function Rota_4(){
                     <div id="point">
                             <img src={rota_4} alt="Imagem do Projeto" />
                         </div>
-                            <Link to="/rota_4">
+                            <Link to="/enrota_4">
                                 <div>
                                     Guide 4
                                 </div>
@@ -140,7 +140,7 @@ export function Rota_4(){
                                         <img src={roteiros.imagem} alt="Imagem do Projeto" />
                                     </div>
                                     <div id="e-link">
-                                        <Link to={roteiros.link}>{roteiros.nome}</Link>
+                                        <Link target="_blank" to={roteiros.link}>{roteiros.nome}</Link>
                                     </div>
                         </Popup>
                     </Marker>

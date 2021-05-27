@@ -5,11 +5,12 @@ import "./index.css"
 
 function ENFichas(){
 
+    document.title = "Files"
     return(
         <>
         <Navbar />
         <div className="container">
-            <h2>Files</h2>
+            <h2 className="font-weight-bold">Files</h2>
             <div className="row row-cols-1 row-cols-md-3">
                 {documentos.map(doc => (
                     <div className="col mb-4">

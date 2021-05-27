@@ -1,10 +1,10 @@
-import NavBar from "../../../components/Navbar";
+import { Navbar } from "../../../components/EN/Navbar";
 import { Territ } from "../../../components/Territ"
 
-export function Territorio(){
+function ENTerritorio(){
     return(
         <>
-            <NavBar />
+            <Navbar />
             <div class="container text-1">
                 <h2>Our Territory</h2>
                 <Territ />
@@ -12,3 +12,5 @@ export function Territorio(){
         </>
     )
 }
+
+export default ENTerritorio;
