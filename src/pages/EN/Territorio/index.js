@@ -1,5 +1,5 @@
 import { Navbar } from "../../../components/EN/Navbar";
-import { Territ } from "../../../components/Territ"
+import { ENTerrit } from "../../../components/EN/Territ"
 
 function ENTerritorio(){
     return(
@@ -7,7 +7,7 @@ function ENTerritorio(){
             <Navbar />
             <div class="container text-1">
                 <h2>Our Territory</h2>
-                <Territ />
+                <ENTerrit />
             </div>
         </>
     )
