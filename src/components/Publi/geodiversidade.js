@@ -1,5 +1,5 @@
 import "./index.css";
-import arquivos from "./geodiversidade.json";
+import arquivos from "./json/geodiversidade.json";
 
 
 function GeodiversidadePubli(){

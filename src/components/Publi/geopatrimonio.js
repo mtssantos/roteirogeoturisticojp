@@ -1,5 +1,5 @@
 import "./index.css";
-import arquivos from "./geopatrimonio.json";
+import arquivos from "./json/geopatrimonio.json";
 
 
 function GeopatrimonioPubli(){
