@@ -1,4 +1,4 @@
-import NavBar from "../../../../components/Navbar"
+import { Navbar } from "../../../../components/EN/Navbar";
 import "../1/index.css"
 import { FaculDireito } from "./divisions/dir"
 import { EsculJP } from "./divisions/esc"
@@ -9,7 +9,7 @@ import { PalacioRed } from "./divisions/red"
 export function PracaJoao(){
     return(
         <>
-        <NavBar />
+        <Navbar />
         <div className="container text-1">
             <h2>João Pessoa Square</h2>
         <nav>

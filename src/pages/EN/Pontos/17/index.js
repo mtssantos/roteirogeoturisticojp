@@ -1,4 +1,4 @@
-import NavBar from "../../../../components/Navbar";
+import { Navbar } from "../../../../components/EN/Navbar";
 import { Carmo } from "./divisions/carmo";
 import { Geral } from "./divisions/geral";
 import { Alvares } from "./divisions/alvares";
@@ -6,7 +6,7 @@ import { Alvares } from "./divisions/alvares";
 export function PracaDomAdauto(){
     return(
         <>
-            <NavBar />
+            <Navbar />
             <div className="container text-1">
                 <h2>Dom Adauto Square</h2>
                 <nav>

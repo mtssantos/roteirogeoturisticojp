@@ -1,4 +1,4 @@
-import NavBar from "../../../../components/Navbar";
+import { Navbar } from "../../../../components/EN/Navbar";
 import santo_antonio_1 from './media/santo_antonio_1.JPG';
 import santo_antonio_2 from './media/santo_antonio_2.jpg';
 
@@ -6,7 +6,7 @@ import santo_antonio_2 from './media/santo_antonio_2.jpg';
 export function Antonio(){
     return(
         <>
-            <NavBar />
+            <Navbar />
             <div class="container text-1">
                 <h2>San Antônio Fountain</h2>
                 <p className="text-article">It is located on the land of the Franciscans, inside the attached garden, on the northwest side of the boards. To access it, you must go down a relatively steep path for about 350 meters. Since the beginning of the conquest of the captaincy, its waters have supplied the population. In Dutch iconography, the dimension with which it was portrayed appeared to be large, with a stream that flowed towards the Sanhauá River.</p>

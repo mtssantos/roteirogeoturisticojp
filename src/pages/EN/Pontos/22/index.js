@@ -1,10 +1,10 @@
-import NavBar from '../../../../components/Navbar';
+import { Navbar } from "../../../../components/EN/Navbar";
 import mosteiro from './media/mosteiro.JPG';
 
 export function Mosteiro(){
     return(
         <>
-        <NavBar />
+        <Navbar />
         <div class="container text-1">
             <h2>San Benedict Monastery</h2>
             <p className="text-article">It is located at the beginning of New Street (now General Osório Street), close to D. Ulrico Square.</p>

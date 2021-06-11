@@ -1,14 +1,17 @@
 import NavBar from "../../components/Navbar";
 import { Territ } from "../../components/Territ"
 
-export function Territorio(){
+function Territorio(){
+    document.title = "Nosso Território"
     return(
         <>
             <NavBar />
             <div class="container text-1">
-                <h2>Nosso Terrítorio</h2>
+                <h2 className="font-weight-bold">Nosso Terrítorio</h2>
                 <Territ />
             </div>
         </>
     )
 }
+
+export default Territorio

@@ -1,4 +1,4 @@
-import NavBar from "../../../../components/Navbar";
+import { Navbar } from "../../../../components/EN/Navbar";
 import gruta_1 from "./media/gruta_1.png";
 import gruta_2 from "./media/gruta_2.jpg";
 import gruta_3 from "./media/gruta_3.jpg";
@@ -6,7 +6,7 @@ import gruta_3 from "./media/gruta_3.jpg";
 export function Gruta(){
     return(
         <>
-        <NavBar />
+        <Navbar />
         <div className="container">
             <h2>Grotto of the Tides</h2>
                 <p className="text-article">Access to the Place of Interest is through the Industrial District, passing through the 'Outcrop of the Beberibe Formation', 600 meters from the 'Arenização da Barreiras Formation'. The Gruta das Marés (or Caverna das Marés, as it also appears in the literature), duly registered with the Brazilian Speleology Society, is part of a system of pseudocarst, all close by, formed in the Plio-Pleistocene sandstones of the <b> Barreiras Formation </b>and associated with the horst Tabuleiro das Lagoas. It has an entrance, 60 meters high, narrow and steep, with about 2.5 meters, which leads to a gallery through which the waters of the tributary of the Marés flow. This gallery, about 100 meters long in a southwest-northeast direction, is located at an unevenness of 20 meters deep and has a width of around 3 to 4 meters (photo 1). No paleontological or archaeological record was found.</p>

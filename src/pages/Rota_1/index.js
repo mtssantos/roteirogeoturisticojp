@@ -8,7 +8,7 @@ import rota_3 from '../../assets/rota_3.png'
 import rota_4 from '../../assets/rota_4.png'
 
 
-export function Rota_1(){
+function Rota_1(){
     
     const roteiro1 = [
         [-7.11459, -34.87739],
@@ -140,7 +140,7 @@ export function Rota_1(){
                                         <img src={roteiros.imagem} alt="Imagem do Projeto" />
                                     </div>
                                     <div id="e-link">
-                                        <Link to={roteiros.link}>{roteiros.nome}</Link>
+                                        <Link target="_blank" to={roteiros.link}>{roteiros.nome}</Link>
                                     </div>
                             </Popup>
                     </Marker>
@@ -151,3 +151,5 @@ export function Rota_1(){
         </>
     )
 }
+
+export default Rota_1

@@ -1,4 +1,4 @@
-import NavBar from '../../../../components/Navbar';
+import { Navbar } from "../../../../components/EN/Navbar";
 import falha_1 from './media/falha_1.jpg';
 import falha_2 from './media/falha_2.jpg';
 import falha_3 from './media/falha_3.jpg';
@@ -9,7 +9,7 @@ import falha_5 from './media/falha_5.jpg';
 export function FalhaSanhaua(){
     return(
         <>
-        <NavBar />
+        <Navbar />
         <div class="container text-1">
             <h2>Sanhauá Failure</h2>
 					<p className="text-article">The panoramic view point is located on a small hill, about 15 meters high, between the upper city and the old port of Varadouro (photo 1), being the only example of an existing square in the city. This square includes a series of properties listed by IPHAEP: Igreja São Frei Pedro Gonçalves, Hotel Globo and properties nº 02, 10, 16, 36, 48 and 75.</p>

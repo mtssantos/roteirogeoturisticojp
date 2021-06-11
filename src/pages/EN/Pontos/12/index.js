@@ -1,11 +1,11 @@
-import NavBar from "../../../../components/Navbar";
+import { Navbar } from "../../../../components/EN/Navbar";
 import areniza_1 from "./media/areniza_1.jpg";
 import "../1/index.css";
 
 export function ArenizaBarreira(){
     return(
         <>
-        <NavBar />
+        <Navbar />
         <div className="container">
         <h2>Barreiras Sandstorm</h2>
             <p className="text-article">This Place of Interest is located in João Pessoa, close to the triple border with Bayeux and Santa Rita. Access is through the Industrial District, passing through the 'Outcrop of the Beberibe Formation'. It is a circular area, with about 75 thousand m2, formed by a sandy package with dunes and numerous lagoons (photo 1), in the Horst Tabuleiro das Lagoas (Brito Neves et al. 2009).</p>

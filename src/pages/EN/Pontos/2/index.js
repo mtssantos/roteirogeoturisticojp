@@ -1,13 +1,13 @@
 import bica_1 from './bica_1.JPG';
 import fonte_1 from '../1/fonte_1.png';
 import "../1/index.css";
-import NavBar from '../../../../components/Navbar';
+import { Navbar } from "../../../../components/EN/Navbar";
 
 
 export function BicaFeia(){
     return(
         <>
-        <NavBar />
+        <Navbar />
         <div className="container">
                 <h2>Ugly Maria Spout</h2>
             <p className="text-article">The Ugly Maria Spout, together with Tambiá Fountain and People's Cacimba, they are the most peripheral of the colonial urban nucleus and played a leading role for the populations that lived far from the most central ones (photo 1); in the case of Ugly Maria Spout, especially the population of the eastern portion from the 19th century to the mid-1950s, being a public source (ARAÚJO, 2012).</p>

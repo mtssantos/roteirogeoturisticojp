@@ -1,4 +1,4 @@
-import NavBar from "../../../../components/Navbar"
+import { Navbar } from "../../../../components/EN/Navbar";
 import { Geral } from "./divisions/geral";
 import "../1/index.css"
 import { Obelisco } from "./divisions/obe";
@@ -9,7 +9,7 @@ import { Busto } from "./divisions/bust";
 export function PracaIndepen(){
     return(
         <>
-        <NavBar />
+        <Navbar />
         <div className="container text-1">
         <nav>
                 <div className="nav nav-tabs" id="nav-tab" role="tablist">

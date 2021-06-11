@@ -1,11 +1,11 @@
-import NavBar from "../../../../components/Navbar";
+import { Navbar } from "../../../../components/EN/Navbar";
 import academia_paraibana from "./media/academia_paraibana.jpg"
 
 
 export function Academia(){
     return(
         <>
-        <NavBar />
+        <Navbar />
         <div class="container text-1">
             <h2>Letters Academy Of Paraíba</h2>
             <p className="text-article">It is located at Rua Duque de Caxias, nº 25, on the corner with Rua D. Ulrico, in front of the São Francisco Complex atrium. The land belonged to the Third Order of San Francisco and in 1947 it was sold to the Academy. The existing building had to be demolished and rebuilt due to the poor conditions it was in.</p>

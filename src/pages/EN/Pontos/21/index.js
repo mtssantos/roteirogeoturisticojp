@@ -1,13 +1,13 @@
 import { Geral } from "./divisions/geral";
 import { Matriz } from "./divisions/matriz";
 import { Lourdes } from "./divisions/lourdes";
-import NavBar from "../../../components/Navbar";
+import { Navbar } from "../../../../components/EN/Navbar";
 
 
 export function PracaDomUlrico(){
     return(
         <>
-        <NavBar />
+        <Navbar />
         <div className="container text-1">
             <h2>Dom Ulrico Square</h2>
             <nav>

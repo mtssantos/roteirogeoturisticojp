@@ -23,29 +23,17 @@ export function Navbar(){
                                     <div className="dropdown-menu">
                                         <button className="dropdown-item" data-toggle="modal" data-target="#exampleModal">Criteria</button>
                                         <Link to="/en_locais" className="dropdown-item">Places Of Interest</Link>
-                                        <Link to="/" className="dropdown-item">Files</Link>                                        
+                                        <Link to="/en_fichas" className="dropdown-item">Files</Link>                                        
                                         <Link to="/" className="dropdown-item">Thematic Exploration</Link>                                        
                                     </div>
                                 </li>
-                                <li className="dropdown">
-                                    <span className="nav-link" data-toggle="dropdown">Our Territory</span>
-                                    <div className="dropdown-menu">
-                                        <Link to="/" className="dropdown-item">Dropdown Item 1</Link>
-                                        <Link to="/" className="dropdown-item">Dropdown Item 2</Link>
-                                        <Link to="/" className="dropdown-item">Dropdown Item 3</Link>
-                                    </div>
+                                <li>
+                                    <Link to="/en_territorio" className="nav-link">Our Territory</Link>
                                 </li>
-                                <li className="dropdown">
-                                    <span className="nav-link" data-toggle="dropdown">Publishing</span>
-                                    <div className="dropdown-menu">
-                                        <Link to="/" className="dropdown-item">Dropdown Item 1</Link>
-                                        <Link to="/" className="dropdown-item">Dropdown Item 2</Link>
-                                        <Link to="/" className="dropdown-item">Dropdown Item 3</Link>
-                                        <Link to="/" className="dropdown-item">Dropdown Item 4</Link>
-                                        <Link to="/" className="dropdown-item">Dropdown Item 5</Link>
-                                    </div>
+                                <li>
+                                    <Link to="/en_publi" className="nav-link">Publishing</Link>
                                 </li>
-                                <li><Link to="/" className="nav-link">About the Project</Link></li>
+                                <li><Link to="/en_about" className="nav-link">About the Project</Link></li>
                                 <li><Link to="/" className="nav-item nav-link"><img src={brasil} id="estados-unidos" alt="Brasil" /></Link></li>
                             </ul>
                         </div>

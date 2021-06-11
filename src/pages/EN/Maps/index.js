@@ -1,13 +1,13 @@
 import { Map, TileLayer, Popup, Polyline } from 'react-leaflet';
 import { Link } from 'react-router-dom';
-import "./index.css";
+import "../../Maps/index.css";
 import rota_1 from '../../../assets/rota_1.png'
 import rota_2 from '../../../assets/rota_2.png'
 import rota_3 from '../../../assets/rota_3.png'
 import rota_4 from '../../../assets/rota_4.png'
 
 
-function Maps() {
+function ENMaps() {
 
     const roteiro1 = [
         [-7.11459, -34.87739],
@@ -79,7 +79,7 @@ function Maps() {
                         <div id="point">
                             <img src={rota_1} alt="Imagem do Projeto" />
                         </div>
-                            <Link to="/rota_1">
+                            <Link to="/enrota_1">
                                 <div>
                                     Guide 1
                                 </div>
@@ -91,7 +91,7 @@ function Maps() {
                     <div id="point">
                             <img src={rota_2} alt="Imagem do Projeto" />
                         </div>
-                            <Link to="/rota_2">
+                            <Link to="/enrota_2">
                                 <div>
                                     Guide 2
                                 </div>
@@ -103,7 +103,7 @@ function Maps() {
                     <div id="point">
                             <img src={rota_3} alt="Imagem do Projeto" />
                         </div>
-                            <Link to="/rota_3">
+                            <Link to="/enrota_3">
                                 <div>
                                     Guide 3
                                 </div>
@@ -115,7 +115,7 @@ function Maps() {
                     <div id="point">
                             <img src={rota_4} alt="Imagem do Projeto" />
                         </div>
-                            <Link to="/rota_4">
+                            <Link to="/enrota_4">
                                 <div>
                                     Guide 4
                                 </div>
@@ -127,7 +127,7 @@ function Maps() {
                     <div id="point">
                             <img src={rota_4} alt="Imagem do Projeto" />
                         </div>
-                            <Link to="/rota_4">
+                            <Link to="/enrota_4">
                                 <div>
                                     Guide 4
                                 </div>
@@ -141,4 +141,4 @@ function Maps() {
 }
 
 
-export default Maps;
+export default ENMaps;

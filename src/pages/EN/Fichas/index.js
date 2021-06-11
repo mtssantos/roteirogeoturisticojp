@@ -1,16 +1,16 @@
-import NavBar from '../../../components/Navbar';
+import { Navbar } from '../../../components/EN/Navbar';
 import { documentos } from "./documentos";
 import "./index.css"
 
 
-export function Fichas(){
+function ENFichas(){
 
-
+    document.title = "Files"
     return(
         <>
-        <NavBar />
+        <Navbar />
         <div className="container">
-            <h2>Files</h2>
+            <h2 className="font-weight-bold">Files</h2>
             <div className="row row-cols-1 row-cols-md-3">
                 {documentos.map(doc => (
                     <div className="col mb-4">
@@ -31,3 +31,5 @@ export function Fichas(){
         </>
     )
 }
+
+export default ENFichas

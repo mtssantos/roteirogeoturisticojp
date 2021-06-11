@@ -1,14 +1,16 @@
-import NavBar from "../../../components/Navbar";
-import { Territ } from "../../../components/Territ"
+import { Navbar } from "../../../components/EN/Navbar";
+import { ENTerrit } from "../../../components/EN/Territ"
 
-export function Territorio(){
+function ENTerritorio(){
     return(
         <>
-            <NavBar />
+            <Navbar />
             <div class="container text-1">
                 <h2>Our Territory</h2>
-                <Territ />
+                <ENTerrit />
             </div>
         </>
     )
 }
+
+export default ENTerritorio;

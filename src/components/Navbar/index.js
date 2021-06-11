@@ -24,7 +24,7 @@ function NavBar(){
                                         <button className="dropdown-item" data-toggle="modal" data-target="#exampleModal">Critérios</button>
                                         <Link to="/locais" className="dropdown-item">Locais de Interesse</Link>
                                         <Link to="/fichas" className="dropdown-item">Fichas</Link>                                        
-                                        <Link to="/" className="dropdown-item">Exploração Temática</Link>                                        
+                                        <Link to="/tematica" className="dropdown-item">Exploração Temática</Link>                                        
                                     </div>
                                 </li>
                                 <li className="dropdown">
@@ -33,7 +33,7 @@ function NavBar(){
                                 <li className="dropdown">
                                     <Link to="/publi" className="nav-link" data-toggle="dropdown">Publicações</Link>
                                 </li>
-                                <li><Link to="/" className="nav-link">Sobre o projeto</Link></li>
+                                <li><Link to="/about" className="nav-link">Sobre o projeto</Link></li>
                                 <li><Link to="/en" className="nav-item nav-link"><img src={estadosunidos} id="estados-unidos" alt="Estados Unidos" /></Link></li>
                             </ul>
                         </div>

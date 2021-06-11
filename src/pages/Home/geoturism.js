@@ -7,11 +7,12 @@ import NavBar from "../../components/Navbar";
 
 
 function Geoturism(){
+    document.title = "Geoturismo"
     return(
         <>
           <NavBar/>
           <div className="container">
-            <h2>Textos sobre o Geoturismo</h2>
+            <h2 className="font-weight-bold">Textos sobre o Geoturismo</h2>
             <nav>
                 <div className="nav nav-tabs" id="nav-tab" role="tablist">
                     <a className="nav-link active" id="nav-intro-tab" data-toggle="tab" href="#nav-intro" role="tab" aria-controls="nav-intro" aria-selected="true">Introdução</a>

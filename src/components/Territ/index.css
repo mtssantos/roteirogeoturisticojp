@@ -1,3 +1,52 @@
 #myGroup > p > button{
     margin-right: 16px;
 }
+.flags{
+    background-color: white;
+}
+.paragraphy{
+    text-indent: 4em;
+    text-align: justify;
+}
+li{
+    text-align: justify;
+}
+.paragraphy-modifded{
+    margin-left: 30%;
+    text-align: justify;
+}
+#evolucao-tab, #unidades-tab, #tectonica-tab{
+    color: black;
+}
+#nav-mapeamento-tab, #nav-geomorfologicos-tab, #nav-introducao-tab, #nav-neotectonica-tab, #nav-fontes-tab, #nav-introducao-clima-tab, #nav-elementos-tab{
+    color: black;
+}
+.figure-caption{
+    color: black;
+    font-weight:bold;
+    text-align: center;
+}
+.figure{
+    text-align: center;
+}
+sup, h3{
+    font-weight: bold;
+}
+#subtitle-persona{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 25px;
+    font-weight: bolder;
+}
+.pero{
+    width: 200px;
+}
+#table-antecedentes{
+    border: none;
+}
+.desenhos{
+    width: 250px;
+}
+.card-group > .card{
+    padding-right: 30px;
+}
