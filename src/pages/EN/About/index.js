@@ -13,11 +13,11 @@ function ENAbout(){
             <Navbar />
             <div className="container about">
                 <img src={logo} className="logo-about" alt="logo" />
-                <h3>Roterio Geoturístico do Centro Histórico de João Pessoa</h3>
-                <p className="description">Este site é uma compilação de dados encontrados na tese de doutorado do professor de Geografia do IFPB Luciano Schaefer Pereira, que pode ser consultado nos links abaixo:</p>
+                <h3>Geoutourism Tour Of Historic Center Of João Pessoa</h3>
+                <p className="description">This site is a compilation of data found in the doctoral thesis of IFPB Geography professor Luciano Schaefer Pereira, which can be consulted on the links below:</p>
                 <nav>
-                    <a href={tese_luciano} target="_blank" className="links" rel="noreferrer">Tese de Luciano</a>
-                    <a href={anexos_luciano} target="_blank" className="links" rel="noreferrer">Anexos da Tese</a>
+                    <a href={tese_luciano} target="_blank" className="links" rel="noreferrer">Luciano's Thesis</a>
+                    <a href={anexos_luciano} target="_blank" className="links" rel="noreferrer">Thesis Attachments</a>
                 </nav>
             </div>
         </>        
