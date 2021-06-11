@@ -5,13 +5,13 @@ export function Publicações(){
         <>
             <NavBar />
             <div className="container">
-            <h2>Publicações</h2>
+            <h2>Publishing</h2>
             <nav>
                 <div className="nav nav-tabs" id="nav-tab" role="tablist">
-                    <a className="nav-link active" id="nav-geoconser-tab" data-toggle="tab" href="#nav-geoconser" role="tab" aria-controls="nav-intro" aria-selected="true">Geoconservação</a>
-                    <a className="nav-link" id="nav-geopatri-tab" data-toggle="tab" href="#nav-geopatri" role="tab" aria-controls="nav-historico" aria-selected="false">Geopatrimônio</a>
-                    <a className="nav-link" id="nav-geodiver-tab" data-toggle="tab" href="#nav-geodiver" role="tab" aria-controls="nav-definicao" aria-selected="false">Geodiversidade</a>
-                    <a className="nav-link" id="nav-geoturismo-tab" data-toggle="tab" href="#nav-geoturismo" role="tab" aria-controls="nav-geourbano" aria-selected="false">Geoturismo</a>
+                    <a className="nav-link active" id="nav-geoconser-tab" data-toggle="tab" href="#nav-geoconser" role="tab" aria-controls="nav-intro" aria-selected="true">Geoconservation</a>
+                    <a className="nav-link" id="nav-geopatri-tab" data-toggle="tab" href="#nav-geopatri" role="tab" aria-controls="nav-historico" aria-selected="false">Geopatrimony</a>
+                    <a className="nav-link" id="nav-geodiver-tab" data-toggle="tab" href="#nav-geodiver" role="tab" aria-controls="nav-definicao" aria-selected="false">Geodiversity</a>
+                    <a className="nav-link" id="nav-geoturismo-tab" data-toggle="tab" href="#nav-geoturismo" role="tab" aria-controls="nav-geourbano" aria-selected="false">Geotourism</a>
                 </div>
                 </nav>
                 <div className="tab-content" id="nav-tabContent">
