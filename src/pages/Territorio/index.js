@@ -7,7 +7,7 @@ function Territorio(){
         <>
             <NavBar />
             <div class="container text-1">
-                <h2 className="font-weight-bold">Our Territory</h2>
+                <h2 className="font-weight-bold">Nosso Território</h2>
                 <Territ />
             </div>
         </>

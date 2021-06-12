@@ -9,53 +9,53 @@ import grafico6 from '../media/grafico6.png';
 export function ENElementosclimaticos(){
     return(
         <>
-            <h3>Temperatura</h3>
-                <p class="paragraphy">Ao longo do ano, a temperatura pode variar de acordo com uma série de fatores como, por exemplo, a quantidade de insolação e a passagem de correntes marítimas e de massas de ar, por exemplo.</p>
-                <p class="paragraphy">Segundo os dados da EMO de João Pessoa, para o período entre 1977 e 2014, expressos na gráfico 1, nota-se a presença de duas estações do ano: um verão quente, entre outubro e março, com médias térmicas máximas em torno dos 31ºC e um inverno ameno, entre abril e setembro, com médias mínimas em torno dos 22ºC. Assim, a amplitude térmica sazonal é de cerca de 3ºC, variando entre 25ºC e 28ºC. Esta variação térmica tem relação direta com a insolação na área onde, entre o equinócio de primavera e o de outono, quando o sol alcança o zênite duas vezes, atinge-se o máximo de calor, 31ºC. Após o equinócio do outono no Hemisfério Sul, em março, a posição da Terra em relação ao sol faz com que os raios solares atinjam João Pessoa com uma inclinação maior, reduzindo as temperaturas. A proximidade do Equador, entretanto, faz com que estas médias sejam relativamente altas, diferentemente das regiões com latitudes superiores, no Brasil.</p>
+            <h3>Temperature</h3>
+                <p class="paragraphy">Throughout the year, the temperature can vary according to a number of factors such as, for example, the amount of sunlight and the passage of sea currents and air masses, for example.</p>
+                <p class="paragraphy">According to EMO data from João Pessoa, for the period between 1977 and 2014, expressed in graph 1, there is the presence of two seasons of the year: a hot summer, between October and March, with maximum thermal averages around 31ºC and a mild winter, between April and September, with minimum averages around 22ºC. Thus, the seasonal thermal amplitude is around 3ºC, varying between 25ºC and 28ºC. This thermal variation is directly related to insolation in the area where, between the spring and autumn equinoxes, when the sun reaches its zenith twice, the maximum heat is reached, 31ºC. After the autumnal equinox in the Southern Hemisphere, in March, the position of the Earth in relation to the sun causes the sun's rays to reach João Pessoa at a greater inclination, reducing temperatures. The proximity of the equator, however, makes these averages relatively high, unlike regions with higher latitudes in Brazil.</p>
                 <div class="text-center">
                     <figure class="figure">
-                        <figurecaption class="figure-caption">Gráfico 1 - Curvas de temperatura média máxima e mínima de João pessoa, para o período 1977-2014.</figurecaption><br /><br />
+                        <figurecaption class="figure-caption">Graph 1 - Average maximum and minimum temperature curves for João Pessoa, for the period 1977-2014.</figurecaption><br /><br />
                         <a href={grafico2}><img src={grafico2} alt="" class="img-fluid" /></a><br /><br />
-                        <figurecaption class="figure-caption">Fonte: o autor.</figurecaption>
+                        <figurecaption class="figure-caption">Source: the author.</figurecaption>
                     </figure>
                 </div>
-                <p class="paragraphy">Apesar das intensas oscilações durante o período amostrado (gráfico 2), as temperaturas médias anuais mostraram um aumento em torno de 1,5ºC, entre 26ºC e 27,5ºC, provavelmente associado à urbanização e, consequentemente, ao desmatamento o que gera ilhas de calor. Nota-se, entretanto, a presença de anos atípicos, como 1998 e 1985/2009, com temperaturas bem mais elevadas e bem mais baixas do que a média, respectivamente.</p>
+                <p class="paragraphy">Despite the intense fluctuations during the sampled period (graph 2), the average annual temperatures showed an increase of around 1.5ºC, between 26ºC and 27.5ºC, probably associated with urbanization and, consequently, deforestation, which generates heat islands . Note, however, the presence of atypical years, such as 1998 and 1985/2009, with temperatures much higher and lower than the average, respectively.</p>
                 <div class="text-center">
                     <figure class="figure">
-                        <figurecaption class="figure-caption">Gráfico 2 - Variação da temperatura média anual para o período 1977-2014.</figurecaption><br /><br />
+                        <figurecaption class="figure-caption">Graph 2 - Variation in average annual temperature for the period 1977-2014.</figurecaption><br /><br />
                         <a href={grafico3}><img src={grafico3} alt="" class="img-fluid" /></a><br /><br />
-                        <figurecaption class="figure-caption">Fonte: o autor.</figurecaption>
+                        <figurecaption class="figure-caption">Source: the author.</figurecaption>
                     </figure>
                 </div>
-                <h3>Umidade e precipitação</h3>
-                <p class="paragraphy">A umidade do ar corresponde ao volume d’água, presente na atmosfera, na forma de vapor. Este volume pode ser quantificado de modo absoluto (g/m3) ou relativo (%), tendo uma relação direta com a nebulosidade e, consequentemente, com as precipitações, ou seja, quanto maior a umidade do ar, maior a possibilidade de haver precipitação, seja na forma de neve, geada, orvalho, chuva ou granizo. Considerando que a área mapeada possui baixas latitudes, as precipitações se dão na forma de chuvas. Os dados da EMO foram expressos em percentagem e aqui serão apresentados.</p>
-                <p class="paragraphy">Segundo esses dados, referentes ao período 1977-2014, a umidade média do ar de João Pessoa é de 75,5%. O gráfico 3 mostra que o verão apresenta as menores taxas de umidades, entre 72% e 74%, aumentando com o decréscimo da temperatura, até 82%.</p>
-                <p class="paragraphy">Este aumento de umidade reflete-se na concentração de chuvas no outono-inverno, conforme o gráfico 4. A concentração de chuvas neste período é consequência da circulação de massas de ar quentes (tropical atlântica, através dos ventos alísios de sudeste) e frias (polar atlântica), que se deslocam para a zona de baixa pressão formada no litoral nordestino no inverno e que acabam por colidir no meio do ano no litoral oriental da região, gerando intensas chuvas frontogênicas, concentradas entre os meses de maio e agosto. A frontogênese acaba por induzir a formação de um <b>Vórtice Ciclônico na Alta Troposfera</b>, que corresponde a uma intensa nebulosidade na alta troposfera (PARAÍBA, 2000, apud NÓBREGA, 2002). Segundo a autora, contribui para tanto, nos meses mais frios, a atuação dos Aglomerados Convectivos associados a distúrbios ondulatórios de leste, ou ‘ondas de leste’, que correspondem a ventos que se deslocam da África, no sentido E-W, com uma velocidade de 10º de longitude por dia e um comprimento de 4000 Km. Entretanto, como veremos a seguir, o papel destes ventos é reduzido na produção da pluviosidade, uma vez que não circulam na área no período chuvoso, se restringindo aos meses mais quentes e mais secos (outubro a março).</p>
+                <h3>Humidity and Precipitation</h3>
+                <p class="paragraphy">Air humidity corresponds to the volume of water present in the atmosphere in the form of vapor. This volume can be quantified in an absolute (g/m3) or relative (%) way, having a direct relationship with cloudiness and, consequently, with precipitation, that is, the higher the air humidity, the greater the possibility of precipitation , whether in the form of snow, frost, dew, rain or hail. Considering that the mapped area has low latitudes, rainfall occurs in the form of rain. EMO data were expressed as a percentage and will be presented here.</p>
+                <p class="paragraphy">According to these data, for the period 1977-2014, the average air humidity in João Pessoa is 75.5%. Graph 3 shows that summer has the lowest humidity rates, between 72% and 74%, increasing with a decrease in temperature, up to 82%.</p>
+                <p class="paragraphy">This increase in humidity is reflected in the concentration of rain in autumn-winter, as shown in Graph 4. The concentration of rain in this period is a consequence of the circulation of hot air masses (Atlantic tropical, through the southeast trade winds) and cold ( Atlantic polar), which move to the low pressure zone formed on the northeastern coast in winter and which end up colliding in the middle of the year on the eastern coast of the region, generating intense frontogenic rains, concentrated between the months of May and August. Frontogenesis ends up inducing the formation of a <b>Cyclonic Vortex in the Upper Troposphere</b>, which corresponds to an intense cloudiness in the upper troposphere (PARAÍBA, 2000, apud NÓBREGA, 2002). According to the author, the performance of Convective Clusters associated with eastern undulatory disturbances, or 'eastern waves', which correspond to winds moving from Africa, in the EW direction, with a speed of 10º longitude per day and a length of 4000 km. However, as we will see below, the role of these winds is reduced in the production of rainfall, since they do not circulate in the area during the rainy season, being restricted to the hottest and driest months (October to March).</p>
                 <div class="text-center">
                     <figure class="figure">
-                        <figurecaption class="figure-caption">Gráfico 3 - Variação da umidade relativa média mensal para o período 1977-2014.</figurecaption><br /><br />
+                        <figurecaption class="figure-caption">Graph 3 - Variation of monthly average relative humidity for the period 1977-2014.</figurecaption><br /><br />
                         <a href={grafico4}><img src={grafico4} alt="" class="img-fluid" /></a><br /><br />
-                        <figurecaption class="figure-caption">Fonte: o autor.</figurecaption>
+                        <figurecaption class="figure-caption">Source: the author.</figurecaption>
                     </figure>
                 </div>
                 <div class="text-center">
                     <figure class="figure">
-                        <figurecaption class="figure-caption">Gráfico 4 - Variação da precipitação média anual para o período 1977-2014.</figurecaption><br /><br />
+                        <figurecaption class="figure-caption">Graph 4 - Variation in average annual precipitation for the period 1977-2014.</figurecaption><br /><br />
                         <a href={grafico5}><img src={grafico5} alt="" class="img-fluid" /></a><br /><br />
-                        <figurecaption class="figure-caption">Fonte: o autor.</figurecaption>
+                        <figurecaption class="figure-caption">Source: the author.</figurecaption>
                     </figure>
                 </div>
-                <p class="paragraphy">A média pluviométrica anual, no período supracitado, foi de 1838 mm, tendo nos meses de abril a julho seu ápice (entre 261 mm e 326 mm) e entre outubro a dezembro seu mínimo (em torno de 30 mm/mês). Corroborando os dados de Vasconcelos (2010), entretanto, alguns anos mostraram anomalias significativas, seja na pluviosidade anual, seja na pluviosidade mensal, o que não reduz a confiabilidade dos dados, visto que os ‘<i>outliers</i>’ foram desconsiderados nos cálculos de média.</p>
-                <p class="paragraphy">A tabela 1 mostra alguns destes ‘<i>outliers</i>’, no que diz respeito a uma quantidade mensal de chuva superior ou inferior à média.</p>
-                <p class="paragraphy">Pelas tabelas a seguir, pode-se perceber que, em alguns anos, há uma concentração de anomalias, que acabaram por afetar a pluviosidade total. Em 1982, por exemplo, um fenômeno <b>El Niño</b> extremamente forte (GLYNN, 1990) afetou o clima do litoral nordestino, registrando uma pluviosidade de apenas 500 mm, praticamente um terço do valor médio, repetindo o que havia ocorrido no ano anterior, com uma precipitação acumulada de apenas 635 mm. Aliás, o somatório de pluviosidade dos anos de 1981, 1982 e 1983 foi de 2330 mm, ou seja, apenas 25% a mais do que chove, normalmente, em um ano. Conforme documentos históricos, estas secas já haviam assolado João Pessoa em outros séculos, mas no século XX não se havia noticiado nada parecido. Outros anos atípicos foram 1979, 1993, 1999, 2001 e 2006, com o total pluviométrico em torno de 1000 mm. Nestes anos de déficit pluviométrico, o <b>Anticiclone Subtropical do Atlântico Sul</b> e os ventos alísios de sudeste estavam mais intensos, empurrando a Zona de Convergência Intertropical, responsável pela nebulosidade e chuvas no litoral, mais para o norte (PARAÍBA, 2000 apud NÓBREGA, 2002).</p>
+                <p class="paragraphy">The average annual rainfall, in the aforementioned period, was 1838 mm, with its peak in the months of April to July (between 261 mm and 326 mm) and its minimum between October and December (around 30 mm/month). Corroborating the data from Vasconcelos (2010), however, some years showed significant anomalies, either in annual rainfall or in monthly rainfall, which does not reduce the reliability of the data, since the '<i>outliers</i>' were disregarded in the average calculations.</p>
+                <p class="paragraphy">Table 1 shows some of these ‘<i>outliers</i>’, with respect to a monthly amount of rain above or below the average.</p>
+                <p class="paragraphy">From the tables below, it can be seen that, in some years, there is a concentration of anomalies, which ended up affecting the total rainfall. In 1982, for example, an extremely strong <b>El Niño</b> phenomenon (GLYNN, 1990) affected the climate of the northeastern coast, recording a rainfall of only 500 mm, practically a third of the average value, repeating what there was. the previous year, with an accumulated rainfall of only 635 mm. In fact, the sum of rainfall for the years 1981, 1982 and 1983 was 2330 mm, that is, only 25% more than it normally rains in a year. According to historical documents, these droughts had already plagued João Pessoa in other centuries, but in the 20th century nothing similar had been reported. Other atypical years were 1979, 1993, 1999, 2001 and 2006, with total rainfall around 1000 mm. In these years of rainfall deficit, the <b>South Atlantic Subtropical Anticyclone</b> and the southeast trade winds were more intense, pushing the Intertropical Convergence Zone, responsible for cloudiness and rain on the coast, further north (PARAÍBA , 2000 apud NÓBREGA, 2002).</p>
                 <div class="container text-center">
-                    <figurecaption class="figure-caption">Tabela 1 - Anos anômalos com respeito à pluviosidade para o período 1977-2014.</figurecaption><br />
-                    <figurecaption class="figure-caption">Chuvas acima da média</figurecaption>
+                    <figurecaption class="figure-caption">Table 1 - Anomalous years with respect to rainfall for the period 1977-2014.</figurecaption><br />
+                    <figurecaption class="figure-caption">Above average rains</figurecaption>
                     <table class="table table-bordered">
                         <tr>
-                            <th>Mês/Ano</th>
-                            <th>Média mensal normal</th>
-                            <th>Quantidade Registrada</th>
+                            <th>Month/Year</th>
+                            <th>Normal monthly average</th>
+                            <th>Registered Quantity</th>
                         </tr>
                         <tr>
                             <td>Mar/1984</td>
@@ -63,17 +63,17 @@ export function ENElementosclimaticos(){
                             <td>654,7 mm</td>
                         </tr>
                         <tr>
-                            <td>Ago/1985</td>
+                            <td>Aug/1985</td>
                             <td>287 mm</td>
                             <td>675,8 mm</td>
                         </tr>
                         <tr>
-                            <td>Abr/1989</td>
+                            <td>Apr/1989</td>
                             <td>261 mm</td>
                             <td>680,6 mm</td>
                         </tr>
                         <tr>
-                            <td>Mai/1994</td>
+                            <td>May/1994</td>
                             <td>270 mm</td>
                             <td>620,5 mm</td>
                         </tr>
@@ -88,17 +88,17 @@ export function ENElementosclimaticos(){
                             <td>303,2 mm</td>
                         </tr>
                         <tr>
-                            <td>Set/2013</td>
+                            <td>Sep/2013</td>
                             <td>76,5 mm</td>
                             <td>287,5 mm</td>
                         </tr>
                     </table>
-                    <figurecaption class="figure-caption">Chuvas abaixo da média</figurecaption>
+                    <figurecaption class="figure-caption">Below average rains</figurecaption>
                     <table class="table table-bordered">
                         <tr>
-                            <th>Mês/ano</th>
-                            <th>Média mensal normal</th>
-                            <th>Quantidade registrada</th>
+                            <th>Month/Year</th>
+                            <th>Normal monthly average</th>
+                            <th>Quantity registered</th>
                         </tr>
                         <tr>
                             <td>Mar/1981</td>
@@ -106,12 +106,12 @@ export function ENElementosclimaticos(){
                             <td>10,9 mm</td>
                         </tr>
                         <tr>
-                            <td>Abr/1982</td>
+                            <td>Apr/1982</td>
                             <td>161 mm</td>
                             <td>1,2 mm</td>
                         </tr>
                         <tr>
-                            <td>Mai/1982</td>
+                            <td>May/1982</td>
                             <td>270 mm</td>
                             <td>22,2 mm</td>
                         </tr>
@@ -126,22 +126,22 @@ export function ENElementosclimaticos(){
                             <td>1,1 mm</td>
                         </tr>
                         <tr>
-                            <td>Ago/1982</td>
+                            <td>Aug/1982</td>
                             <td>151 mm</td>
                             <td>21,5 mm</td>
                         </tr>
                         <tr>
-                            <td>Out/1985</td>
+                            <td>Oct/1985</td>
                             <td>32 mm</td>
                             <td>1,1 mm</td>
                         </tr>
                         <tr>
-                            <td>Dez/1987</td>
+                            <td>Dec/1987</td>
                             <td>31 mm</td>
                             <td>1,5 mm</td>
                         </tr>
                         <tr>
-                            <td>Fev/1989</td>
+                            <td>Feb/1989</td>
                             <td>102 mm</td>
                             <td>11,3 mm</td>
                         </tr>
@@ -156,26 +156,26 @@ export function ENElementosclimaticos(){
                             <td>2 mm</td>
                         </tr>
                     </table>
-                    <figurecaption class="figure-caption">Fonte: o autor.</figurecaption>
+                    <figurecaption class="figure-caption">Source: the author.</figurecaption>
                     
 
                 </div>
-                <p class="paragraphy">O ano mais chuvoso do período analisado foi 1985, com valores ultrapassando 3000 mm. Acima de 2300 mm, destacam-se os anos de 1978, 1994, 1996, 2000 e 2009. Nestes anos, o <b>Anticiclone Subtropical do Atlântico Norte</b> e os ventos alísios de nordeste estão mais intensos, empurrando a Zona de Convergência Intertropical mais para o sul, ‘estacionando’ sobre o litoral nordestino por um período mais longo que o normal.</p>
-                <h3>Ventos</h3>
-                <p class="paragraphy">Os ventos correspondem à movimentação do ar, causada por diferenças de pressão atmosférica, cujo sentido se dá de altas para baixas pressões. O vento tem o papel de funcionar como um agente exógeno, modelando as formas de relevo, sendo um dispersor de sedimentos ao longo da superfície, assim como de poluentes para a alta atmosfera, servindo também como gerador de ondas no oceano, com uma relação direta na morfologia da costa. As brisas marítimas, também, tem um papel fundamental no clima urbano como amenizador das altas temperaturas e, no caso de João Pessoa, uma legislação estadual e municipal especial<sup>1</sup> , proibindo a construção de edifícios com mais de 12,90 m, numa primeira linha de lotes, a 35 m, numa última linha, até 500 m a partir da preamar de sizígia, propicia a interferência reduzida na direção e velocidade dos ventos. Entender a dinâmica atmosférica por este viés é importante e será descrita neste capítulo.</p>
-                <p class="paragraphy">A partir dos dados da EMO, foi identificado a direção e velocidades dos ventos que percorreram a área entre 1997 e 2014. Com relação à direção dos ventos (gráfico 5), há um predomínio absoluto de ventos de direção SE, principalmente a partir de 2005, chegando a frequência de 100% em 2012, seguido dos ventos de quadrante NE, E e S, que marcaram um equilíbrio na frequência nos anos de 2001 a 2003, com exceção do ano de 2001, em que ventos de direção NE não circularam na região. Os ventos de SE possuem uma velocidade média de 2,91 m/s, enquanto os ventos de E e S possuem velocidades médias de 2,96 m/s e 2,97 m/s, respectivamente.</p>
+                <p class="paragraphy">The wettest year in the analyzed period was 1985, with values exceeding 3000 mm. Above 2300 mm, 1978, 1994, 1996, 2000 and 2009 stand out. In these years, the <b>North Atlantic Subtropical Anticyclone</b> and the northeast trade winds are more intense, pushing the Zone of Intertropical Convergence further to the south, 'parking' on the northeast coast for a longer period than normal.</p>
+                <h3>Winds</h3>
+                <p class="paragraphy">Winds correspond to the movement of air, caused by differences in atmospheric pressure, whose direction is from high to low pressures. The wind has the role of working as an exogenous agent, modeling the landforms, being a disperser of sediments along the surface, as well as pollutants to the upper atmosphere, also serving as a generator of waves in the ocean, with a direct relationship in the morphology of the coast. Sea breezes, too, play a fundamental role in the urban climate as a softener of high temperatures and, in the case of João Pessoa, special state and municipal legislation<sup>1</sup> , prohibiting the construction of buildings with more than 12 .90 m, in a first line of lots, at 35 m, in a last line, up to 500 m from the high tide, provides reduced interference in the direction and speed of the winds. Understanding atmospheric dynamics through this bias is important and will be described in this chapter.</p>
+                <p class="paragraphy">From the EMO data, the direction and speed of the winds that crossed the area between 1997 and 2014 were identified. Regarding the direction of the winds (Graph 5), there is an absolute predominance of winds from SE direction, especially from 2005 onwards. , reaching 100% frequency in 2012, followed by NE, E and S quadrant winds, which marked an equilibrium in frequency in the years 2001 to 2003, with the exception of 2001, when NE direction winds did not circulate in the region. The SE winds have an average speed of 2.91 m/s, while the E and S winds have an average speed of 2.96 m/s and 2.97 m/s, respectively.</p>
                 <div class="text-center">
                     <figure class="figure">
-                        <figurecaption class="figure-caption">Gráfico 5-Frequência dos ventos dominantes de acordo com a direção para o período 1997-2014.</figurecaption><br /><br />
+                        <figurecaption class="figure-caption">Graph 5-Frequency of dominant winds according to direction for the period 1997-2014.</figurecaption><br /><br />
                         <a href={grafico6}><img src={grafico6} alt="" class="img-fluid" /></a><br /><br />
-                        <figurecaption class="figure-caption">Fonte: o autor.</figurecaption>
+                        <figurecaption class="figure-caption">Source: the author.</figurecaption>
                     </figure>
                 </div>
-                <p class="paragraphy">Os ventos de direção E também circulam, preferencialmente, entre os meses de outubro e março. Sua velocidade média é de 2,96 m/s, enquanto os ventos de quadrante S, na forma de massas polares, circulam no meio do ano, tendo, assim, relação direta com as intensas chuvas nesta época, também como com as quedas de temperatura. Sua velocidade média é de 2,97 m/s.</p>
-                <p class="paragraphy">Os elementos climáticos possuem um papel fundamental na configuração do relevo de uma área, funcionando como um agente exógeno que esculpe as rochas por meio do intemperismo, seja químico, seja físico, formando e erodindo o solo, em momentos de intensa pluviosidade, por exemplo, causam desabamentos de encostas e, assim, incômodos à população civil, normalmente a de baixa renda. Ademais, influenciam diretamente na distribuição da vegetação sobre o território, nas suas características morfológicas e na configuração da linha de costa. Desse modo, sua análise, presente neste subcapítulo, possui papel importante para a seleção de alguns Locais de Interesse, principalmente localizados na área costeira da tese.</p>
+                <p class="paragraphy">The E winds also circulate, preferably, between the months of October and March. Its average speed is 2.96 m/s, while the S quadrant winds, in the form of polar masses, circulate in the middle of the year, thus having a direct relationship with the heavy rains at this time, as well as with the falls of temperature. Its average speed is 2.97 m/s.</p>
+                <p class="paragraphy">Climatic elements play a fundamental role in the configuration of the relief of an area, acting as an exogenous agent that sculpts the rocks through weathering, whether chemical or physical, forming and eroding the soil, in times of intense rainfall, for example, they cause landslides and, thus, inconvenience the civilian population, usually the low-income ones. Furthermore, they directly influence the distribution of vegetation over the territory, its morphological characteristics and the configuration of the coastline. Thus, its analysis, present in this subchapter, plays an important role in the selection of some Places of Interest, mainly located in the coastal area of the thesis.</p>
                 <hr />
                 <span>
-                    <sup>1</sup> Constituição do Estado da Paraíba (Art. 229), Lei Orgânica para o Município de João Pessoa (Art. 175) e o Plano Diretor de João Pessoa (Art. 25).
+                    <sup>1</sup> Constitution of the State of Paraíba (Art. 229), Organic Law for the Municipality of João Pessoa (Art. 175) and the Master Plan of João Pessoa (Art. 25).
                 </span>
         </>
     )
