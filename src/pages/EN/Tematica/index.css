@@ -1,0 +1,11 @@
+#nav-solo-tab, #nav-agua-tab, #nav-relevo-tab, #nav-rochas-tab, #nav-geologia-tab, #nav-geomorfologico-tab, #nav-hidrologico-tab, #nav-obelisco-tab, #nav-pedestral-tab, #nav-residencia-tab, #nav-cemiterio-tab, #nav-palacio-tab, #nav-igreja-tab{
+    color: black;
+}
+
+a.local{
+    color: #007bff;
+}
+
+nav.menu-floop{
+    margin-left:-50px;
+}
