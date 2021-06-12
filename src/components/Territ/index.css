@@ -50,3 +50,7 @@ sup, h3{
 .card-group > .card{
     padding-right: 30px;
 }
+
+#nav-introducaohidro-tab, #nav-neotectonica-tab, #nav-aguadoce-tab{
+    color:black;
+}

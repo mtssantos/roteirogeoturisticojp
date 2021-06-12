@@ -20,16 +20,16 @@ function Publicações(){
                 </div>
                 </nav>
                 <div className="tab-content" id="nav-tabContent">
-                <div className="tab-pane fade show active" id="nav-geoconser" role="tabpanel" aria-labelledby="nav-geoconser-tab">
+                <div className="tab-pane fade show active docs" id="nav-geoconser" role="tabpanel" aria-labelledby="nav-geoconser-tab">
                     <GeoConservacaoPubli />
                 </div>
-                <div className="tab-pane fade" id="nav-geopatri" role="tabpanel" aria-labelledby="nav-geopatri-tab">
+                <div className="tab-pane fade docs" id="nav-geopatri" role="tabpanel" aria-labelledby="nav-geopatri-tab">
                     <GeopatrimonioPubli />
                 </div>
-                <div className="tab-pane fade" id="nav-geodiver" role="tabpanel" aria-labelledby="nav-geodiver-tab">
+                <div className="tab-pane fade docs" id="nav-geodiver" role="tabpanel" aria-labelledby="nav-geodiver-tab">
                     <GeodiversidadePubli />
                 </div>
-                <div className="tab-pane fade" id="nav-geoturismo" role="tabpanel" aria-labelledby="nav-geoturismo-tab">
+                <div className="tab-pane fade docs" id="nav-geoturismo" role="tabpanel" aria-labelledby="nav-geoturismo-tab">
                     <Geoturismpubli />
                 </div>
                 </div>  

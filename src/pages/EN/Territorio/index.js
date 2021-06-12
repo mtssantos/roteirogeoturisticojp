@@ -6,7 +6,7 @@ function ENTerritorio(){
         <>
             <Navbar />
             <div class="container text-1">
-                <h2>Our Territory</h2>
+                <h2 className="font-weight-bold">Our Territory</h2>
                 <ENTerrit />
             </div>
         </>

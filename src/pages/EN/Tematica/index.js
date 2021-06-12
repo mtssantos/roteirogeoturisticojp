@@ -1,12 +1,12 @@
 import { Link } from "react-router-dom";
-import NavBar from "../../components/Navbar"
+import { Navbar } from "../../../components/EN/Navbar"
 import "./index.css";
 
-function ExplorarTematica(){
+function ENExplorarTematica(){
     document.title = "Exploração Temática"
     return(
         <>
-            <NavBar />
+            <Navbar />
             <div class="container">
                 <h2 class="font-weight-bold">Thematic Exploration</h2>
                 <div id="accordion">
@@ -183,4 +183,4 @@ function ExplorarTematica(){
     )
 }
 
-export default ExplorarTematica
+export default ENExplorarTematica

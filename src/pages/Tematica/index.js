@@ -38,7 +38,7 @@ function ExplorarTematica(){
                                                 <a class="nav-item nav-link active" id="nav-agua-tab" data-toggle="tab" href="#nav-agua" role="tab" aria-controls="nav-agua" aria-selected="true">Água</a>
                                                 <a class="nav-item nav-link" id="nav-solo-tab" data-toggle="tab" href="#nav-solo" role="tab" aria-controls="nav-solo" aria-selected="false">Solo</a>
                                                 <a class="nav-item nav-link" id="nav-relevo-tab" data-toggle="tab" href="#nav-relevo" role="tab" aria-controls="nav-relevo" aria-selected="false">Relevo</a>
-                                                <a class="nav-item nav-link" id="nav-rochas-tab" data-toggle="tab" href="#nav-rochas" role="tab" aria-controls="nav-rochas" aria-selected="false">Rocks</a>
+                                                <a class="nav-item nav-link" id="nav-rochas-tab" data-toggle="tab" href="#nav-rochas" role="tab" aria-controls="nav-rochas" aria-selected="false">Rochas</a>
                                             </div>
                                         </nav>
                                         <div class="tab-content" id="nav-tabContent">
@@ -85,9 +85,9 @@ function ExplorarTematica(){
                                     <div class="card-body">
                                     <nav>
                                         <div class="nav nav-tabs" id="nav-tab" role="tablist">
-                                            <a class="nav-item nav-link active" id="nav-geologia-tab" data-toggle="tab" href="#nav-geologia" role="tab" aria-controls="nav-geologia" aria-selected="true">Geology</a>
+                                            <a class="nav-item nav-link active" id="nav-geologia-tab" data-toggle="tab" href="#nav-geologia" role="tab" aria-controls="nav-geologia" aria-selected="true">Geológico</a>
                                             <a class="nav-item nav-link" id="nav-geomorfologico-tab" data-toggle="tab" href="#nav-geomorfologico" role="tab" aria-controls="nav-geomorfologico" aria-selected="false">Geomorfológico</a>
-                                            <a class="nav-item nav-link" id="nav-hidrologico-tab" data-toggle="tab" href="#nav-hidrologico" role="tab" aria-controls="nav-hidrologico" aria-selected="false">Hydrológico</a>
+                                            <a class="nav-item nav-link" id="nav-hidrologico-tab" data-toggle="tab" href="#nav-hidrologico" role="tab" aria-controls="nav-hidrologico" aria-selected="false">Hidrológico</a>
                                         </div>
                                         </nav>
                                         <div class="tab-content" id="nav-tabContent">

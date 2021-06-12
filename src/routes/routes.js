@@ -26,6 +26,7 @@ import { ENRota_1 } from '../pages/EN/Rota_1';
 import { ENRota_2 } from '../pages/EN/Rota_2';
 import { ENRota_3 } from '../pages/EN/Rota_3';
 import { ENRota_4 } from '../pages/EN/Rota_4';
+import ENExplorarTematica from '../pages/EN/Tematica';
 
 
 export function Routes(){
@@ -54,6 +55,7 @@ export function Routes(){
             <Route path="/fichas" component={Fichas} />
             <Route path="/en_fichas" component={ENFichas} />
             <Route path="/tematica" component={ExplorarTematica} />
+            <Route path="/en_tematica" component={ENExplorarTematica} />
             <Route path="/about" component={About} />
             <Route path="/en_about" component={ENAbout} />
             <RouterPontos />
