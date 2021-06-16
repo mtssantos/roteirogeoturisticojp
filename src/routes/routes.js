@@ -27,10 +27,14 @@ import { ENRota_2 } from '../pages/EN/Rota_2';
 import { ENRota_3 } from '../pages/EN/Rota_3';
 import { ENRota_4 } from '../pages/EN/Rota_4';
 import ENExplorarTematica from '../pages/EN/Tematica';
+import ScrollToTop from "../components/ScrollToTop"
+import Historia from '../pages/Home/history';
 
 
 export function Routes(){
     return(
+        <>
+        <ScrollToTop />
         <BrowserRouter>
             <Route path="/" component={Home} exact />
             <Route path="/en" component={EN} />
@@ -58,8 +62,10 @@ export function Routes(){
             <Route path="/en_tematica" component={ENExplorarTematica} />
             <Route path="/about" component={About} />
             <Route path="/en_about" component={ENAbout} />
+            <Route path="/history" component={Historia} />
             <RouterPontos />
             <ENRouterPontos />
         </BrowserRouter>
+        </>
     )
 }

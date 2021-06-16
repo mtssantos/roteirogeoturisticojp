@@ -148,6 +148,13 @@ span.nav-item{
   margin-right:50px;
   margin-left: -20px;
 }
+.imgs{
+  display: flex;
+  justify-content: space-around;
+}
+.img-patrocine{
+  width: 350px;
+}
 
 
 

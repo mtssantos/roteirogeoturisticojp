@@ -5,9 +5,14 @@ import ModalCriterios from "../../components/Modal";
 import "./index.css";
 import "./navbar.css"
 import estadosunidos from "../../assets/estadosunidos.webp";
+import IFPB from "../../assets/ifpb.svg";
+import UC from "../../assets/uc.svg";
+import CAPES from "../../assets/capes.svg";
+import CEGOT from "../../assets/cegot.svg";
 
 
 function Home() {
+    document.title = "Roteiro Geoturístico do Centro Histórico do João Pessoa"
    return(
         <div className="Home">
             <header className="header-area overlay">
@@ -57,14 +62,14 @@ function Home() {
                     <div className="bloco-1">
                         <h2>Locais de Interesse</h2>
                         <p>Capital do Estado da Paraíba, João Pessoa possui um dos centros históricos mais antigos do país, repleto de igrejas, monumentos, praças históricas, obeliscos e fontes.</p>
-                        <Link to="/local">
+                        <Link to="/locais">
                             <strong>Ver Locais</strong>
                         </Link>
                     </div>
                     <div className="bloco-2">
                         <h2>Sobre o Centro Histórico</h2>
                         <p>Capital do Estado da Paraíba, João Pessoa possui um dos centros históricos mais antigos do país, repleto de igrejas, monumentos, praças históricas, obeliscos e fontes.</p>
-                        <Link to="/territorio">
+                        <Link to="/history">
                             <strong>Entenda a História</strong>
                         </Link>
                     </div>
@@ -81,6 +86,20 @@ function Home() {
                 <iframe src="/maps" title="mapa" className="mapa"></iframe>
                 <br /> 
                 <br /> 
+            </div>
+            <div className="container">
+                <h2 className="text-center font-weight-bold">Patrocínio</h2>
+                <hr />
+                <div className="imgs">
+                    <a href="https://www.ifpb.edu.br/" title="IFPB - Campus João Pessoa"  rel="noreferrer" target="_blank"><img src={IFPB} alt="IFPB - Campus João Pessoa" className="img-patrocine" /></a>
+                    <a href="https://www.uc.pt/" title="Universidade de Coimbra"  rel="noreferrer" target="_blank"><img src={UC} alt="Universidade de Coimbra" className="img-patrocine" /></a>
+                </div>
+                <br />
+                <div className="imgs">
+                    <a href="https://www.gov.br/capes/pt-br" title="CAPES"  rel="noreferrer" target="_blank"><img src={CAPES} alt="CAPES" className="img-patrocine" /></a>
+                    <a href="https://cegot.pt/pt/" title="CEGOT"  rel="noreferrer" target="_blank"><img src={CEGOT} alt="CEGOT" className="img-patrocine" /></a>
+                </div>
+                <hr />
             </div>
                 <div className="container">
                 <div className="bottom-footer">
