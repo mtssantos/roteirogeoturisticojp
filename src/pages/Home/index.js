@@ -82,7 +82,7 @@ function Home() {
                 </div>
             </div>
             <div className="container">
-                <h2 className="text-center font-weight-bold">Nosso Mapa</h2>            
+                <h2 className="text-center font-weight-bold">Roteiros Geoturísticos</h2>            
                 <iframe src="/maps" title="mapa" className="mapa"></iframe>
                 <br /> 
                 <br /> 
